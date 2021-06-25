@@ -1,0 +1,42 @@
+'$INCLUDE: 'QBX.BI'
+'$INCLUDE: 'C:\FACT3\FONTS\STRUCTS.BI'
+'$INCLUDE: 'C:\FACT3\FONTS\FACTURA.BI'
+'$INCLUDE: 'C:\FACT3\FONTS\STOCK.BI'
+'$INCLUDE: 'C:\FACT3\FONTS\DRAC3.BI'
+'$INCLUDE: 'C:\FACT3\FONTS\CAMPS.BI'
+'$INCLUDE: 'C:\FACT3\FONTS\WIN.BI'
+
+DIM COL(2, 1)
+	 CLS
+	 COL(0, 0) = 7: COL(0, 1) = 0
+	 COL(1, 0) = 0: COL(1, 1) = 7
+	 COL(2, 0) = 15: COL(2, 1) = 0
+
+     FINESTRA 10, 10, 22, 66, 1, CAIXA1
+     SETMAXCAMPS 4
+
+     INITCAMP 0, 12, 26, ASCI, 0, "XXXXXXXXXXXXX", "Codi Article:"
+     INITCAMP 1, 14, 26, ASCI, 0, STRING$(40, "X"), "Descripci¢:"
+     INITCAMP 2, 16, 26, ASCI, 0, "99999.99", "Quantitat:"
+     INITCAMP 3, 17, 26, ASCI, 0, "999999999", "Preu Unitari:"
+     INITCAMP 4, 18, 26, ASCI, 0, "999", "Dto %:"
+     LOCATE 20, 26: PRINT "Import:              Pts."
+     FOR C = 0 TO 4: SETCOLORCAMPS C, COL(1, 0), COL(1, 1), COL(0, 0), COL(0, 1), COL(2, 0), COL(2, 1): NEXT
+
+     FOR C = 0 TO 3
+	 INSERTCAMP C, LIN$(L, C + 1): VELL$ = LIN$(L, C + 1)
+     NEXT
+     INSERTCAMP 4, LIN$(L, 7)
+     DISPLAYALL
+
+     FOR C = 0 TO 4
+	 INSERTCAMP C, LIN$(L, C + 1): VELL$ = LIN$(L, C + 1)
+
+	 VALUE = LLEGIRCAMP(C)
+	 SELECT CASE VALUE
+		CASE SALIR
+		     END
+		CASE ELSE
+	 END SELECT
+      NEXT
+

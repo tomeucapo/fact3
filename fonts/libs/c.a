@@ -1,0 +1,20 @@
+             SELECT CASE ERR
+                    CASE 68
+                         AVIS "ERROR:", "PERIFERIC NO VALID", 0
+                         EXIT DEF
+                    CASE 25
+                         AVIS "ERROR:", "FALLA EL PERIFERIC " + DEVICE$, 0
+                    CASE 61
+                         AVIS "ERROR:", "EL DISC ESTA PLE", 0
+                         EXIT DEF
+                 CASE 53
+                AVIS "ERROR:", "EL FITXER " + NOM$ + " NO A ESTAT TROBAT", 0
+                EXIT DEF
+                 CASE 27
+                AVIS "AVIS:", "IMPRESORA SENSE PAPER", 0
+                 CASE 24
+                AVIS "ERROR:", "TEMPS DE ACCESS AL PERIFERIC " + DEVICE$ + " EXEDIT", 0
+                EXIT DEF
+                 CASE ELSE
+                END SELECT
+

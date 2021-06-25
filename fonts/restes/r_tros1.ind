@@ -1,0 +1,29 @@
+'ACTUALIZ.INDEX:
+'         GOSUB GUARDARINDEX
+'         ERASE INDEX
+'         DIM INDEX(1 TO MAXCL) AS INDEXCLI
+'         FOR RI = 1 TO MAXCL               ' COL.LOCAR A MEM•RIA L'INDEX I LA CLAU
+'             GET AREA2, RI, NDXCLIENT
+'             INDEX(RI).REGISTRE = NDXCLIENT.REGISTRE
+'             INDEX(RI).CODI = NDXCLIENT.CODI
+'         NEXT
+'         INDEX(RNDX).REGISTRE = RNDX
+'         INDEX(RNDX).CODI = CLIENTS.CODICLIENT
+'         RETURN
+'
+'GUARDARINDEX:
+'      CALL SortClients(INDEX(), MAXCL)
+'      IF MAXCL - 1 > 1 THEN
+'         FOR RI = 1 TO MAXCL - 1
+'             NDXCLIENT.REGISTRE = INDEX(RI).REGISTRE
+'             NDXCLIENT.CODI = INDEX(RI).CODI
+'             PUT AREA2, RI, NDXCLIENT
+'         NEXT
+'       ELSE
+'         NDXCLIENT.REGISTRE = INDEX(1).REGISTRE
+'         NDXCLIENT.CODI = INDEX(1).CODI
+'         PUT AREA2, 1, NDXCLIENT
+'       END IF
+'      RETURN
+'
+

@@ -1,0 +1,82 @@
+[shared-]
+	version=2
+	pmark="D:\FACT3\FONTS\alt_alba.BAS" 1438 17
+	project=""
+	buildmode=0
+[edit-]
+	srch=pintavalors
+	fSrchRe=0
+	rpl=
+	src=
+	fRplRe=28672
+	file="D:\FACT3\FONTS\alt_alba.BAS" 1437 1 1438 17
+[pwb]
+	screen=25 80
+	winstyle=7
+	wnd=C 2 1 24 80
+[environ]
+	INCLUDE=c:\taller\bc7\src;
+	LIB=c:\taller\bc7\lib;c:\fact3\fonts;
+	HELPFILES=c:\taller\bc7\help;
+[build]
+    build: macro DEBUG "0"
+    build: macro PWBRMAKE "pwbrmake"
+    build: macro NMAKEBSC1 "set"
+    build: macro NMAKEBSC2 "nmake"
+    build: macro BC "bc"
+    build: macro BCFLAGS_R "/Ot"
+    build: macro BCFLAGS_D "/D /Zi"
+    build: macro BCFLAGS_G "/O /FPi /E /X /Lr /Fs /Ah"
+    build: macro MAPFILE_D "NUL"
+    build: macro MAPFILE_R "NUL"
+    build: macro LFLAGS_G " /NOE  /BATCH /NOD:BRT71EFR.LIB"
+    build: macro LFLAGS_D "/CO /FAR /PACKC"
+    build: macro LFLAGS_R "/EXE /FAR /PACKC"
+    build: macro LINKER "link"
+    build: macro ILINK "ilink"
+    build: macro LRF "echo > NUL"
+    build: macro LLIBS_G "BCL71EFR.LIB+QBX.LIB+DTFMTER.LIB+SL4_NOR.LIB;"
+    build: all $(PROJ).exe
+    build: target $(PROJ).bsc pwbrmake
+    build: target $(PROJ).exe lrf_exe link_exe
+    build: inference .bas.obj bc_bas_obj
+    build: inference .bas.sbr bc_bas_sbr
+    build: command pwbrmake "$(PWBRMAKE) @<<\n$(BRFLAGS) $(SBRS)\n<<"
+    build: command nmakebsc1 "$(NMAKEBSC1) MAKEFLAGS="
+    build: command nmakebsc2 "$(NMAKEBSC2) $(NMFLAGS) -f $(PROJFILE) $(PROJ).bsc"
+    build: release command bc_bas_obj "$(BC) /Z $(BCFLAGS_G) $(BCFLAGS_R) $<, $@;"
+    build: debug command bc_bas_obj "$(BC) /Z $(BCFLAGS_G) $(BCFLAGS_D) $<, $@;"
+    build: release command bc_bas_sbr "$(BC) /Z $(BCFLAGS_G) $(BCFLAGS_R) $<, nul;"
+    build: debug command bc_bas_sbr "$(BC) /Z $(BCFLAGS_G) $(BCFLAGS_D) $<, nul;"
+    build: release command lrf_exe "$(LRF) @<<$(PROJ).lrf\n$(RT_OBJS: = +^\n) $(OBJS: = +^\n)\n$@\n$(MAPFILE_R)\n$(LLIBS_G: = +^\n) +\n$(LLIBS_R: = +^\n) +\n$(LIBS: = +^\n)\n$(DEF_FILE) $(LFLAGS_G) $(LFLAGS_R);\n<<"
+    build: debug command lrf_exe "$(LRF) @<<$(PROJ).lrf\n$(RT_OBJS: = +^\n) $(OBJS: = +^\n)\n$@\n$(MAPFILE_D)\n$(LLIBS_G: = +^\n) +\n$(LLIBS_D: = +^\n) +\n$(LIBS: = +^\n)\n$(DEF_FILE) $(LFLAGS_G) $(LFLAGS_D);\n<<"
+    build: command link_exe "$(LINKER) @$(PROJ).lrf"
+    build: command run "$(PROJ).exe $(RUNFLAGS)"
+    build: command debug "CV $(CVFLAGS) $(PROJ).exe $(RUNFLAGS)"
+    build: include dependencies
+    build: include no system
+    build: include .bas "^[ \t]*'[ \t]*\\$include:[ \t]*'\\([^']+\\)'"
+    build: include .bas "^[ \t]*rem[ \t]*\\$include:[ \t]*'\\([^']+\\)'"
+    build: include .bi "^[ \t]*'[ \t]*\\$include:[ \t]*'\\([^']+\\)'"
+    build: include .bi "^[ \t]*rem[ \t]*\\$include:[ \t]*'\\([^']+\\)'"
+    build: include .rc "^[ \t]*rcinclude[ \t]+\\([^ \t]+\\)"
+    build: include .rc "^[ \t]*#[ \t]*include[ \t]*\"[ \t]*\\(\\:p\\)[ \t]*\""
+    build: include .rc "^[ \t]*#[ \t]*include[ \t]*<[ \t]*\\(\\:p\\)[ \t]*>" system
+    build: message "^SYS[0-9][0-9][0-9][0-9]:\\:b"
+    build: message "^NET[0-9][0-9][0-9][0-9]:\\:b"
+    build: message "^\\(\\{\\:p\\!<[^>]*>\\}\\) \\([0-9]+\\) \\([0-9]+\\)[ ]*:" file line col
+    build: message "^\\(\\:p\\):\\([0-9]+\\):" file line
+    build: message "^[^(]+(\\(\\:p\\)) : error L[0-9]+[ ]*: '_*\\([^']+\\)' : unresolved external" file token
+    build: message "^[^(]+(\\(\\:p\\)) : [^L]+L[124]" file
+    build: message "^LINK [^L]+L[124]"
+    build: message "^ILINK : [^L]+L[124]"
+    build: message "^\\(\\:p\\)(\\(\\:z\\))[ ]*: [^U]+U[124]" file line
+    build: message "^NMAKE : [^U]+U[124]"
+    build: message "^\\:p : [^U]+U[124]\\:d\\:d\\:d"
+    build: message "^\\(\\:p\\)([ \t]*\\(\\:z\\),[ \t]*\\(\\:z\\)) : " file line col
+    build: message "^[]*BC :"
+    build: message "^pwbrmake: [^U]+U[124]"
+    build: message "^BIND : [^U]+U[124]"
+    build: message "^\\(\\:p\\)(\\(\\:z\\)) RC:" file line
+    build: message "^RC: error"
+    build: language BASIC

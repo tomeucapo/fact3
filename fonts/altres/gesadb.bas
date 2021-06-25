@@ -1,0 +1,154 @@
+DECLARE FUNCTION BinariDecimal! (CAD$, BITS!)
+DECLARE SUB ObrirABD (NOM$)
+DECLARE SUB TestErrors ()
+
+TYPE CAPABD
+     ID AS STRING * 9
+     MAINVERSION AS STRING * 1
+     SECOVERSION AS STRING * 1
+     REGISTRES AS LONG
+     REGISMARKS AS LONG
+     NUMCAMPS AS STRING * 1
+END TYPE
+
+TYPE DEFCAMPS
+     NOMCAMP AS STRING * 16
+     TIPUSCAMP AS STRING * 1
+     LONGCAMP AS STRING * 1
+     MARK AS STRING * 1
+END TYPE
+
+TYPE ARCHIVOSABD
+     ERRORD AS CURRENCY
+     ERRORDC AS STRING * 30
+     REGISTRES AS LONG
+     DEFINCAMPS(1 TO 255) AS DEFCAMPS
+END TYPE
+
+COMMON SHARED /ABD/ ARXIUSOBERTS, MAXCAMPOS
+
+CONST CAPSAL = "DRAC_ABD"
+DIM SHARED CAPSALERA AS CAPABD
+DIM SHARED ARXIUABD(0 TO 10) AS ARCHIVOSABD
+
+'$INCLUDE: 'QBX.BI'
+'$INCLUDE: 'C:\FACT3\FONTS\STRUCTS.BI'
+'$INCLUDE: 'C:\FACT3\FONTS\FACTURA.BI'
+'$INCLUDE: 'C:\FACT3\FONTS\STOCK.BI'
+'$INCLUDE: 'C:\FACT3\FONTS\DRAC3.BI'
+'$INCLUDE: 'C:\FACT3\FONTS\SDK_001.BI'
+'$INCLUDE: 'C:\FACT3\FONTS\CONSTS.BI'
+
+
+    CLS : COLOR 15, 9
+    LOCATE 1, 1: PRINT STRING$(80, " ")
+    LOCATE 1, 1: PRINT "DRAC ABD 1.0 -"; : COLOR 14: PRINT " Arxius Bases de Dades": PRINT : COLOR 7, 0
+
+    ObrirABD (COMMAND$)  ' Obri la base de dades
+    IF ARXIUABD(0).ERRORD <> 0 THEN END
+
+    COLOR 3: PRINT "Fitxer "; : COLOR 11: PRINT COMMAND$
+    COLOR 3: PRINT "Nombre del handle: "; : COLOR 11: PRINT ARXIUSOBERTS;
+    COLOR 3: PRINT "Nombre de camps: "; : COLOR 11: PRINT MAXCAMPOS: COLOR 3
+    PRINT "-------------------------------------------------------"
+    PRINT "Nom Camp        Tipus       Longitut      Decimals"
+    PRINT "-------------------------------------------------------"
+
+    COLOR 11
+    FOR RC = 1 TO MAXCAMPOS
+	TP = ASC(ARXIUABD(1).DEFINCAMPS(RC).TIPUSCAMP)
+	PRINT ARXIUABD(1).DEFINCAMPS(RC).NOMCAMP;
+	SELECT CASE TP
+	       CASE 1
+		    PRINT "Car…cter    ";
+	       CASE 2
+		    PRINT "NumŠric     ";
+	       CASE 3
+		    PRINT "Data        ";
+	       CASE 4
+		    PRINT "Camp memo   ";
+	       CASE ELSE
+	END SELECT
+	LOCAMP = ASC(ARXIUABD(1).DEFINCAMPS(RC).LONGCAMP)
+	IF TP = 1 OR TP = 3 THEN
+	   PRINT LTRIM$(STR$(LOCAMP))
+	ELSE
+	   IF TP = 2 THEN
+	      DEFC$ = DecimalBinari$(LOCAMP, 8)
+	      LO = BinariDecimal(MID$(DEFC$, 1, 6), 6)
+	      DE = BinariDecimal(MID$(DEFC$, 7, 8), 3)
+	      PRINT LO, DE
+	   END IF
+	END IF
+    NEXT: COLOR 3
+    PRINT "-------------------------------------------------------"
+
+FUNCTION BinariDecimal (CAD$, BITS)
+	 Cnum = 0
+	 FOR SY = BITS + 1 TO 1 STEP -1
+	     Cnum = Cnum + VAL(MID$(CAD$, SY, 1)) * 2 ^ (BITS - SY)
+	 NEXT
+	 BinariDecimal = Cnum
+END FUNCTION
+
+SUB ObrirABD (NOM$)
+    
+    AREAABD = FREEFILE: IF NOM$ = "" THEN EXIT SUB
+    OPEN NOM$ FOR BINARY AS AREAABD
+    GET AREAABD, 1, CAPSALERA
+
+    IF CAPSALERA.ID <> CAPSAL THEN
+       ARXIUABD(0).ERRORD = 1: CLOSE AREABD
+       BEEP
+       TestErrors
+       EXIT SUB
+    END IF
+
+    IF ARXIUSOBERTS = 18 THEN
+       ARXIUABD(0).ERRORD = 2: CLOSE AREABD
+       BEEP
+       TestErrors
+       EXIT SUB
+    ELSE
+       IF ARXIUSOBERTS = 0 THEN
+	  ARXIUSOBERTS = 1
+       ELSE
+	  ARXIUSOBERTS = ARXIUSOBERTS + 1
+       END IF
+    END IF
+
+    MF = ARXIUSOBERTS
+    MAXCAMPOS = ASC(CAPSALERA.NUMCAMPS)
+    FOR RC = 1 TO ASC(CAPSALERA.NUMCAMPS)
+	GET AREAABD, , ARXIUABD(MF).DEFINCAMPS(RC)
+	TP = ASC(ARXIUABD(MF).DEFINCAMPS(RC).TIPUSCAMP)
+	LOCAMP = ASC(ARXIUABD(MF).DEFINCAMPS(RC).LONGCAMP)
+	IF TP = 1 OR TP = 3 THEN
+
+	ELSE
+	   IF TP = 2 THEN
+	      DEFC$ = DecimalBinari$(LOCAMP, 8)
+	      LO = BinariDecimal(MID$(DEFC$, 1, 6), 6)
+	      DE = BinariDecimal(MID$(DEFC$, 7, 8), 3)
+	      'ARXIUABD(MF).DEFINCAMPS(RC).LONGCAMP = CHR$(lo + de)
+	   END IF
+	END IF
+    NEXT
+    CLOSE AREAABD
+END SUB
+
+SUB TestErrors
+    SELECT CASE ARXIUABD(0).ERRORD
+	   CASE 0
+	   CASE 1
+		ARXIUABD(0).ERRORDC = "Fitxer amb format no v…lid"
+		PRINT "ERROR: "; ARXIUABD(0).ERRORD; ARXIUABD(0).ERRORDC
+	   CASE 2
+		ARXIUABD(0).ERRORDC = "Sobre passat el limit dels arxius oberts (MAX: 18)"
+		PRINT "ERROR: "; ARXIUABD(0).ERRORD; ARXIUABD(0).ERRORDC
+	   CASE ELSE
+		ARXIUABD(0).ERRORDC = "UNKNOWN"
+		PRINT "ERROR: XXXX Desconegut"
+    END SELECT
+END SUB
+

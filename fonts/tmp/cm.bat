@@ -1,0 +1,3 @@
+@ECHO OFF
+BC %1.BAS /E/X/Ot/Fs;
+

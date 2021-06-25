@@ -1,0 +1,1950 @@
+Q11697 Integer "Overflow" Is Not Trapped without /D Debug Switch
+Q11785 Getting the DTA Address Using INT86
+Q11880 Negative Array Subscripts Checked with Debug, /D
+Q11936 List of Basics Using MBF versus IEEE Floating-Point Format
+Q12027 "Bad File Name"; OPEN "COM1:"; 8 Data Bits Must Have No Parity
+Q12074 CLEAR Should Not Be Used in Event Trap
+Q12243 No Error Listing File in QB 2.00; Error-Only File in 2.01/3.00
+Q12337 Explanation of String Space Garbage Collection; FRE Function
+Q20456 BUG: String Manipulation Slower in Compiler Vs Interpreter
+Q20503 NAME, FILES$(1), File Types, in Macintosh BASIC
+Q20505 Files Saved as Text Are Always Loaded Tokenized in Interpreter
+Q20514 RETURN and ENTER Not Detected by INKEY$ If a BUTTON Is Present
+Q20519 Printing Control Characters & Suppressing RETURNs in Mac BASIC
+Q20520 Using "LPT1:PROMPT", Draft Character Width Differs from Best
+Q20521 Redirecting Fonts and Graphics to Printer with WINDOW OUTPUT#
+Q20522 Control Characters to Reset Page Length for Multi-Page LLIST
+Q20523 Unusual, Compressed LLIST or LPRINT Output After Graphics Dump
+Q20526 LPRINT CHR$(9) Converts TAB to Spaces; "LPT1:BIN" Workaround
+Q20537 SOUND & WAVE Common Questions and Problems in Macintosh BASIC
+Q20538 "System Error" with Inadvertent Implied CALL; B=2:B ; C-D=E
+Q20539 "Type Mismatch" Passing Numeric Constants in CALL Statement
+Q20540 Labels & Line Numbers Must Be Unique, Even Across Subprograms
+Q20541 ON Event GOSUB, ON ERROR GOTO Labels Must Be in Main Program
+Q20542 Invoking Slashed Zeros in Character Mode, ImageWriter Printer
+Q20546 Listing of Macintosh System Error (Bomb) ID Numbers
+Q20549 How to Use "COM1:" Serial Communications in Macintosh BASIC
+Q20551 TIMER Sometimes Returns Number One Less Than Previous Value
+Q20562 FIX: PRINT ERL,X Gives Syntax Error in Macintosh QuickBasic
+Q20565 MS Chart Cannot Use Double-Precision Clipboard Numbers
+Q20566 Supplemental Reference Books and Disks for Macintosh BASIC
+Q20572 Timing Accurate to 1/60th Second Using PEEK or ToolBox Call
+Q20573 Reading Macintosh Sequential Files Randomly and Vice Versa
+Q20575 "String Formula Too Complex" Passing String Constants
+Q20584 How to Print to an Apple LaserWriter
+Q20591 BUG: WINDOW OUTPUT Output Goes to Wrong Window in Interpreter
+Q20592 FIX: ELSEIF Syntax Error Marked on IF Line in Interpreter
+Q21311 How DEFINT, DEFSNG, DEFDBL Affect Type of DEF FN Function
+Q21787 Communications Device Buffer Size Can Be Set with /C: Switch
+Q21789 Why Basic Doesn't Support COM3 or COM4 Serial Port
+Q21790 Compatibility with AT&T PC 6300: No SCREEN 100 or SCREEN B
+Q21792 Sperry PC Basic's SCREEN B Is Not Supported
+Q21795 "/" Switches on the Wang PC
+Q21805 < RESUME Linenumber > Is Not Allowed for Subprograms
+Q21809 FILES Statement Always Displays Name of Current Directory
+Q21811 Maximum Number of Records in a Random Access File
+Q21815 Cannot Access FIELDed Variables After CLOSE in Compiled Basic
+Q21819 8087 Coprocessor Support for QuickBasic
+Q21831 Compatibility of Compiled Basic with Microsoft Windows
+Q21832 Reserved Words Not Necessarily Implemented as Features
+Q21833 .EXE File Size Larger than Other Basic Compilers
+Q21835 Last SOUND Truncated at End of Program
+Q21836 Length of Strings, String Descriptors in Compiler, Interpreter
+Q21839 Support for IBM EGA and Hercules Graphics Cards
+Q21844 Integer Overflow Handling in Compiler Differs from Interpreter
+Q21850 QuickBasic and Basic Compiler 6.00 Support Only MS-NET, PC-NET
+Q21859 WIDTH 40, WIDTH 80; "Illegal Function Call"
+Q21862 Duplicate Labels Can Only Be Separately Compiled             s
+Q21863 Passing Variables to ON ERROR and ON Event Handlers
+Q21899 CALL ABSOLUTE "Unresolved Subprogram Reference," "Not Defined"
+Q21901 COMSPEC; SHELL "Illegal Function Call", Can't Find COMMAND.COM
+Q21902 SHELL Can Give "Out of Memory" Error or Fragment Memory
+Q21911 EGA 43-Line Mode Supported in QuickBasic Version 3.00 Editor
+Q21915 Beep When Editing INPUT or LINE INPUT Statement Responses
+Q21947 CIRCLE Starting Angle of -0 Does Not Draw Line from Center
+Q21956 Using Page 2 in SCREEN 9 Gives "Illegal Function Call" on EGA
+Q21963 ENVIRON Statement Produces "Out of Memory" Error Message
+Q21964 "Subscript Out of Range" Dimensioning a Dynamic Numeric Array
+Q21969 SCREEN 1 COLOR Yellow Is Brown (Muddy) on EGA Versus CGA Card
+Q21973 CTRL+BREAK Doesn't Break Program on Tandy 1000; Use CTRL+HOLD
+Q21987 ON KEY Trap Fails if CAPS/NUM LOCK Active; Need Separate KEY
+Q22015 SHELL "PATH=\..." Affects Only a Local Copy of DOS
+Q22018 PLAY "N0" First Note of Rest Clicks Speaker in QuickBasic
+Q22019 XON/XOFF Communications Protocol Not Supported in QuickBasic
+Q22021 OPEN LEN=reclen Effect on Sequential File Buffering and Speed
+Q22022 PRINT Forces Contiguous String to Next Row & Doesn't Wrap It
+Q22036 SCREEN 7,8,9 "Illegal Function Call" Using Foreground COLOR 0
+Q23388 CTRL+UP and CTRL+DOWN ARROW Keys No Longer Scroll the Screen
+Q23389 Unexpected Result from CINT(.5) in QB87; IEEE Rounds to Even
+Q23413 PRB: "Bad Filename" When Use COM2: Without COM1: Installed
+Q23449 AppleTalk Printer 60-Second Time-Out Kills Mac BASIC Printing
+Q25341 Determining Macintosh ROM Version, 64K or 128K, from Basic
+Q25581 Can't Use Border Parameter of COLOR Statement on EGA, VGA Card
+Q25989 DATE$, TIME$ in Loop Can Push System Time Backwards in DOS 3.x
+Q25993 "Type Mismatch" Using PRINT VAL("100.1 %") or VAL("E%")
+Q25996 No EOF (CTRL+Z) Marker Written at End of Sequential File
+Q25998 "Duplicate Definition" with Same Name of SUBprogram, Variable
+Q26006 "Illegal Function Call" from EXE Using Coprocessor
+Q26007 IEEE Math Rounding Differs in Compiled .EXE and QB.EXE Editor
+Q26009 CONST "Syntax Error" with BC.EXE 4.00, but Works in Editor
+Q26082 QB87 Hang or Bad Numbers When "Divide By Zero" on PC-DOS 3.20
+Q26088 No Cursor Displayed in Graphics SCREENs 1, 2, 3, 7 through 13
+Q26471 Workarounds for CLOSE of COM(n) Disconnecting Phone Connection
+Q26478 DOS APPEND Path Can Affect Make EXE File Command in QB/QBX.EXE
+Q26485 Trapping ALT+, SHIFT+, or CTRL+PRINT SCREEN, &H80 Key Flag
+Q26494 "Subscript Out of Range" for Array > 128K; Gaps in Far Heap
+Q26543 Hardware Errors During CALL INTERRUPT Hang the System
+Q26605 BC.EXE "Line Too Long" for Source Lines of 256+ Characters
+Q26633 Make .EXE Option Cannot Find .LIB If Not in Current Directory
+Q26637 ASCII 0, 1, and 2 Control Character Problems in DATA Statement
+Q26677 "Out of Memory," "Error R6005," with CHAIN/RUN in DOS 2.x
+Q26767 LIB.EXE Displays .LIB Contents, QLBDUMP.BAS Displays .QLB
+Q26768 Colored Text in SCREEN 1 in QB Versions 2.x and 3.00, Not 4.00
+Q26903 Mouse Systems Mouse Causes Hang in Some Situations
+Q26931 VAL("&H") and VAL("%") Unexpectedly Returning Nonzero Value
+Q27097 How to Obtain Upper and Lower Bytes of an Integer
+Q27139 WIDTH Over 255 Not Trapped as Error in Version 4.00 Editor
+Q27142 ON X GOTO Line-List Allows Only <= 59 Line Labels or Numbers
+Q27252 QuickBasic Versions 3.00, 4.00, 4.50 Patch for IBM PCjr
+Q27254 CONST, DATA Cannot Precede COMMON Statement
+Q27287 How to Assign High & Low Registers for CALL INTERRUPT, INT86
+Q27289 Passing Basic Variable-Length String to C by Near Reference
+Q27290 Passing Basic Double-Precision Array to C by Far Reference
+Q27291 Example Passing Numeric Variables from Basic to C by Value
+Q27292 Passing Basic Fixed-Length String to C by Near Reference
+Q27293 Passing Basic Fixed-Length String to C by Far Reference
+Q27294 Passing Basic INTEGER Array to Microsoft C by Far Reference
+Q27295 Passing Basic SINGLE-Precision Array to C by Far Reference
+Q27296 Example Passing Basic String Descriptor to Microsoft C
+Q27297 Passing Basic User-Defined Type to C by Near Reference
+Q27298 Passing Basic Array of Long Integers to C by Far Reference
+Q27299 Passing Basic Array of Variable-Length Strings to C
+Q27300 Passing Basic Array of Fixed-Length Strings to C
+Q27301 Passing Basic User-Defined Type to C by Far Reference
+Q27302 Passing Basic Array of User-Defined Type to C
+Q27303 Passing Basic 2-Dimension INTEGER Array to C by Far Reference
+Q27323 Passing Basic 2-Dimensional Variable-Length String Array to C
+Q27324 Passing Numeric Variables between Basic and C by Far Reference
+Q27325 Example Passing Near Numeric Variables between Basic and C
+Q27326 Passing Basic Variable-Length String to C by Far Reference
+Q27327 Passing COMMON Variables from Basic to C by Far Reference
+Q27347 Explanation of Compiler "Bytes Available" and "Bytes Free"
+Q27406 LINE (0,0)-(12231,12230) Causes Line Coordinates to Overflow
+Q27475 Can't Pass QuickBasic COMMON Block to FORTRAN
+Q27476 Guidelines for Interfacing FORTRAN with Compiled Basic
+Q27477 Passing Variables from Microsoft FORTRAN to Basic
+Q27479 Cannot Directly Pass Array from FORTRAN to Basic
+Q27480 Passing FORTRAN COMMON Block to QuickBasic SUBprogram
+Q27486 CALLing C I/O Routines Does Not Affect QB Cursor Position
+Q27489 "Out of String Space," Dynamic Array of Fixed-Length Strings
+Q27490 FUNCTION Fails to Return Zero by Default When Compiled as .EXE
+Q27496 "Overflow" Error Using QLBDUMP.BAS with Large Quick Library
+Q27631 Fixed String Initializing, Space/Null Bytes, LEN, and RTRIM$
+Q27799 BC.EXE /T (Terse) Suppresses Warning Messages
+Q27856 "Formal Parameter Specification Illegal" from BC, but Not QB
+Q27857 Old LINKer "Unrecognized Switch Error: 'EX'" when "Make EXE"
+Q27928 Routines Compiled /FPa (Alt. Math) Can't Be in Quick Library
+Q27934 If CHAINing, Assembler in Extended Run Time Can't Use DGROUP
+Q27993 Creating a Quick Library (.QLB) from a LINK Library (.LIB)
+Q28022 Extraneous Error Messages Compiling REMLINE.BAS with BC /E
+Q28026 PSET Color Argument Affect in Screen 2 Differs from BasicA
+Q28030 QB Fast Load Format Source Code Cannot Be Used in MS CodeView
+Q28031 QB Fast-Load Format Source Code Cannot Be Used in MS CodeView
+Q28040 Problems with VGA Modes on COMPAQ VGC Board & Video Seven VGA
+Q28044 BC.EXE Cannot Compile ASCII 1 or 2 in Fast Load Format Files
+Q28149 "Device I/O Error" Error 57 with OPEN COM1:; Use ON ERROR GOTO
+Q28150 RND and RANDOMIZE Alternatives for Generating Random Numbers
+Q28164 Unexpected PRINT USING ".##" Rounding for .xx5
+Q28169 Selecting Text in QB.EXE with Nondedicated Cursors on Toshiba
+Q28171 Calling Interrupts to Program Microsoft Mouse from QuickBasic
+Q28208 Printing Delayed when DOS PRINT Command Invoked from SHELL
+Q28249 How to Derive Inverse (ARC) and Hyperbolic Trig Functions
+Q28442 OS/2 Protected Mode Restrictions for Basic 6.0 to 7.1
+Q28842 EXE Size Using BCOM4x.LIB (Stand Alone) Versus BRUN4x.LIB
+Q28855 CINT/CLNG Integer Assignment Round x.5 to Nearest Even Integer
+Q28857 Zero Passed or "Type Mismatch" in SUB; DEFtype Usage in QB.EXE
+Q28963 BC Makes Smaller EXE than Make EXE File Using .LIB; e.g. Mouse
+Q28980 "NUL" Device Behaves Different in QB 4.x than 3.00 or GWBasic
+Q28982 No LPRINT, LLIST, "LPT1:DIRECT" Allowed in AppleTalk Network
+Q29010 How Arrays of Fixed- and Variable-Length Strings Use Up Memory
+Q29918 Defining "Intersegment Short Jump" (LINK Error L2002)
+Q29923 FUNCTIONs and Subprograms Can Affect FIELDed Arrays in COMMON
+Q29943 SCREEN Function Gives COLOR Attribute; Foreground, Background
+Q30048 BASIC Support for LaserWriters and ImageWriters I, II, LQ
+Q30271 LINK QB & C "Unresolved Externals"; How to Use LINK /NOE, /NOD
+Q30313 BC.EXE "Syntax Error" Instead of CONST "Duplicate Definition"
+Q30357 "Type Mismatch" Appears When Typing % to Respond to INPUT
+Q30397 Bad Math in EXE Using Dynamic Array of Long Integers: Use /D
+Q30402 INPUT Receives Nonzero Value When "&" Character Is Input
+Q30403 BC.EXE Subprogram Error Occurs in ERROR GOTO in SELECT CASE
+Q30451 How to Print CGA SCREEN 0, 1, or 2 Image to Epson Printer
+Q30455 Why QB/QBX Editor Options Might Revert to Default; QB.INI File
+Q30603 IBM 3270 PC Not Officially Supported by QuickBasic
+Q30844 INKEY$ Returns Two-Byte String for Arrow and Function Keys
+Q30856 How to Make MOUSE CALLs in Hercules Graphics Mode, SCREEN 3
+Q30860 Program Aborts after SHELL on COMPAQ 386/20, COMPAQ DOS 3.31
+Q30880 FIX(N!*10^2) Gives Different Results in .EXE and QB.EXE
+Q31037 Default Stack Size for QuickBasic Versions 3.00 and 4.00
+Q31053 QB.EXE "Path/File Access Error" Running Out of File Handles
+Q31057 QB.EXE "Bad File Mode" Using Merge of Fast Load Format File
+Q31072 FUNCTION+NUM LOCK Toggle Remaps Cursor Keys on Toshiba T1200
+Q31151 "Path/File Access Error"; OPEN FOR APPEND ACCESS WRITE
+Q31156 How to Add Routines to Quick Libraries (.QLB Files)
+Q31157 Use PRINT# to MS-DOS "CON" Device to Send ANSI Escape Codes
+Q31158 LINK Error L1002 "Unrecognized Option Name"; SET LIB=C:\LIB
+Q31159 "Out of Data Space [or Memory]"; OPEN Files Consume Memory
+Q31161 LINE INPUT Avoids INPUT Statement's "Redo from Start" Error
+Q31163 Selecting Text in QB.EXE with Dedicated Cursor Keys on Toshiba
+Q31170 SELECT, IF, FOR, DO, WHILE, CASE, and SUB Structure Errors
+Q31172 Use ERASE to Reinitialize Array of User-Defined TYPE Records
+Q31273 INPUT X% Statement Gives No "Type Mismatch" for d, e, !, or #
+Q31301 Subscript Out of Range Can Hang .EXE without /d Debug Option
+Q31308 Basic Example Using SETMEM to Allocate Far Heap Memory; EXEMOD
+Q31339 How to Extract .OBJ Routines from .LIB Files Using LIB.EXE
+Q31426 "Duplicate Definition" on STATIC Array in Second CALL to SUB
+Q31428 Making Screen MODE Such as CO40 Remain After Program Is Run
+Q31431 Maximum Communications Baud Rate for VB for MS-DOS is 9600
+Q31432 Communications "Device Timeout": Increase CS and DS Time Limit
+Q31471 $INCLUDE Forces Extra Linefeeds in Print from QB.EXE File Menu
+Q31505 "Error During Run-Time Initialization": Mixing /FPa and /FPi
+Q31509 Opening More than 15 Files in MS-DOS Version 3.3 and Later
+Q31557 Passing Array of TYPE or Fixed-Length Strings to SUBprogram
+Q31571 INKEY$ Cannot Input Bytes for CTRL-BREAK Keystroke
+Q31573 QuickBasic/MASM Programs in "PC Magazine" Incorrect
+Q31659 An Accurate Value for Pi Is 4 Times the Arctangent of 1
+Q31660 How to Get Logarithm Base 10 Using LOG(x#)/LOG(10#) in BASIC
+Q31776 Modified CALL INT86OLD Program
+Q31783 Inverse of x$ = HEX$(n) Is VAL("&H"+x$); Inverse for Octal...
+Q31785 "Overflow" Error in Intermediate Integer Calculation
+Q31787 IF <expression> THEN NEXT / THEN WEND Not Supported
+Q31788 INITCB Correction Passing Basic COMMON Block to C
+Q31789 Converting Between Decimal, Octal, and Binary Numbers
+Q31821 Structured Programming in Microsoft QuickBasic - Modules
+Q31822 Structured Programming in QuickBasic - Subprograms; SHARED
+Q31878 Simplified Language for Compilers' Run-Time License Agreement
+Q31881 LINK /PAC and /F Options Are Not Supported by Basic Compiler
+Q31882 DATA Statements Not Allowed in SUB or FUNCTION Procedures
+Q31885 ON <Event> GOSUB Suspended Until INPUT or INPUT$ Is Satisfied
+Q31886 Underlining on Monochrome Display with POKE or INTERRUPT &H10
+Q31887 Macintosh QuickBASIC System Error 12 Using INIT or Old Finder
+Q31888 "Subprogram Already in Use" with Recursive SUB CALL
+Q31911 How to Nest User-Defined TYPE Declarations in Compiled Basic
+Q31926 Accessing Network-Locked File After Power Failure
+Q31927 Undo Command Is Unavailable Except for Desk Accessories
+Q31928 Difference between Decimal and Binary Macintosh QuickBASIC
+Q31930 Difference between Saving as Text, Compressed, and Protected
+Q31932 Purpose of the Apple Editor's Time Stamp Command
+Q31933 Compiled, CHAIN, "Illegal Function Call" Using LIBRARY
+Q31934 Macintosh QuickBASIC 1.00 New Features
+Q31935 How to Create Custom Alert Boxes with ResEdit
+Q31936 Example of Using SetUEvent, ON UEVENT to Detect Mouse Presence
+Q31937 Macintosh QuickBASIC 1.00 System Requirements
+Q31938 "Invalid Function Call" Listing Window of File Saved Protected
+Q31939 I/O to a File OPENed as "NUL" or "NUL.xxx" Does Nothing
+Q32098 QB Program Can Hang if Coprocessor Switch Is Set Incorrectly
+Q32149 "Duplicate Definition" in QB.EXE; "Equals Missing" in BC.EXE
+Q32152 Corrections for LOCATE Statement in QuickBasic 4.00 Manual
+Q32164 Basic Example of CALL SetUEvent, ON UEVENT GOSUB Trapping
+Q32216 Two Ways to Pass Arrays in Compiled Basic to Assembler Routine
+Q32220 COMMON Required/CHAINed Compiled Program, Not Interpreter
+Q32221 CHAIN and RUN Differences between Interpreter and Compiler
+Q32222 Passing DYNAMIC and STATIC Arrays in COMMON; Macintosh BASIC
+Q32223 Mac BASIC Interpreter Allocates DYNAMIC Arrays, Never STATIC
+Q32264 System Restart or Shutdown from Mac QuickBASIC Program
+Q32268 Error Code 2 Is "Syntax Error" at Both Compile and Run Time
+Q32269 Using Command Window to Change Variable while Debugging
+Q32271 Passing Element of FIELDed Array to Subprogram UnFIELDs Array
+Q32272 All Event Handling Is Disabled in an ON ERROR GOTO Handler
+Q32274 Do Not Use DOS Interrupts to Terminate Compiled Programs
+Q32325 Cannot View Data Files in the List Window: Use Another Editor
+Q32326 FUNCTION...END FUNCTION Not Supported by QuickBASIC 1.00
+Q32327 How to CLEAR Maximum Amount of Data Space; Heap Space
+Q32401 TEXTFACE(2) Must Be Used with TEXTMODE(1) in Macintosh BASIC
+Q32402 Printing to Apple LaserWriter Supports Only PENMODE 8 (COPY)
+Q32403 $PAGE Metacommand Puts Page Headers in Compiler Listings
+Q32416 Using Static/Dynamic Arrays in Compiler and Interpreter
+Q32417 "Invalid Character" in Compiler on DIM for Dynamic Array
+Q32418 No LIST, LLIST, MERGE, NEW, TRON, TROFF in BASIC Compiler
+Q32419 SOUND Truncation End of Compiled Program, OK Interpreter
+Q32468 Pattern Editor, Resedit: How to Create New Pattern
+Q32473 /C No Effect on Communications Receive Buffer in CHAINed Prog
+Q32498 "No Symbolic Information" Debugging QuickBasic with CodeView
+Q32500 Use "Check Arrays & Overflow" Option with Arrays
+Q32536 "Inside Macintosh" Made Easy: "Technical Introduction"
+Q32641 Problem Passing Array Element to SUB Compiled with No /Debug
+Q32724 Using FILES$ or FILES to Display Filename or Disk Directory
+Q32725 PEN Function Returns Mouse Cursor Position in Basic
+Q32728 "Type Mismatch" Using Boolean Arguments in TOOLBOX CALL
+Q32729 "Path/File Access" Opening a "NUL" File on a Novell Network
+Q32730 Use Logical AND to Determine Which Bits Are Set in an Integer
+Q32787 "Overflow," "Subscript Out of Range," >32,767 Array Elements
+Q32788 Example of Trapping CTRL+ALT+DEL Keys in Basic
+Q32789 Correction for COMMAND$ Function Example in Manual
+Q32790 "Statement Not in a Subprogram Block"; Order SUBs Last
+Q32965 BUG: Dialog Box Static Text Not Displayed in Macintosh Basic
+Q32966 Dialog and Alert Boxes in Macintosh QuickBASIC
+Q32967 TOOLBOX Statement "Illegal Function Call"; TOOLBOX "i"
+Q32969 Problem Passing Array in COMMON Also in SUB Argument in .QLB
+Q32970 How to Find Name of Currently Chosen Macintosh Printer Driver
+Q32971 How to Send Contents of a Specified Window to a Printer
+Q32972 How to Dump Current Macintosh Screen or Window to Printer
+Q32973 Only Eight Library Files Can Be Open at Once
+Q32974 How to Create a Macintosh Pure-Code Resource Library
+Q32975 Multiple Resources with Same ID Number Saved in Resource File
+Q33018 DrawText Faster Than PRINT, Output to Screen or Printer
+Q33034 How to Trap CTRL+BREAK, CTRL+C on Standard & Enhanced Keyboard
+Q33037 Eight Colors Available in QuickBASIC on Macintosh II
+Q33038 Graphics GET and PUT Change Colors to Monochrome in QuickBASIC
+Q33039 ForeColor Changes Colors for LINE, CIRCLE, and PSET
+Q33040 "File CODE Segments That Conflict with QuickBASIC" Error
+Q33041 Program Can Hang During Communications if Not Setup Correctly
+Q33042 Changing Text Font for Macintosh QuickBasic Listing Window
+Q33043 Colors Sent to Apple LaserWriter Convert to Black and White
+Q33044 PEN(5) Function in SCREEN 9 Returns Only 0 or 1 with Mouse
+Q33047 How to Send PostScript Commands to Apple LaserWriter Printer
+Q33048 Using REM $IGNORE ON/OFF Metacommand in Macintosh QuickBASIC
+Q33049 $OPTION Metacommand Is Similar to $LONG and $OPTION
+Q33050 How to Make a Macintosh QuickBASIC Program Run Faster
+Q33051 "Out of Memory" Using More than One CLEAR Statement
+Q33052 "Can't Find File" OPENing New QuickBASIC Random or APPEND File
+Q33053 PRINT or BEEP "Error 11" in QuickBASIC Compiled apl Program
+Q33054 Macintosh System Error, Hang/No Output; "Use Default Window"
+Q33055 QuickBASIC's ToolBox Statement Can't Call Routines Not in ROM
+Q33056 ToolBox Calls to System Event Functions Fail in QuickBASIC
+Q33087 Losing Characters with COM1: Communications in Macintosh BASIC
+Q33142 Offset for Jump To... Option Appears Incorrect after $INCLUDE
+Q33299 "Hardware Environment Conflict" If No 68881 or 68020
+Q33300 "Illegal Function Call" When GetIcon of Wrong Icon ID
+Q33301 FUNCTION Procedures Cannot Be Invoked in I/O Statements
+Q33302 Using Predefined Standard Patterns with ROM Routines
+Q33304 Toolbox Library Routine String Arguments Have 255-Byte Limit
+Q33305 FIELD Variables Unavailable After Random File Is CLOSED
+Q33404 QB 4.00 README.DOC: FIXSHIFT.COM Corrects BIOS Key Problems
+Q33456 QB 4.00 README.DOC: LOF Returns Bytes in Output Buffer
+Q33486 QuickBasic 4.00b UPDATE.DOC: Enhanced ON ERROR Handling
+Q33487 QB 4.00b UPDATE.DOC: Added SCREEN 4 for Olivetti and AT&T
+Q33488 QuickBasic 4.00b UPDATE.DOC: Adds ON UEVENT to Trap Events
+Q33489 QB 4.00b UPDATE.DOC: Adds SLEEP Statement to Suspend
+Q33620 "Illegal Function Call" on WIDTH 40 with Monochrome Screen
+Q33621 "RETURN without GOSUB" When ON ERROR and CHAIN in 4.00b
+Q33622 COMMON SHARED Problem when Period in Variable after CHAIN
+Q33623 PRINT Scrolls Truncated Text If Window Bottom Covered
+Q33624 EDIT FIELDs, BUTTONs Stop PRINT Scrolling in Mac QuickBASIC
+Q33626 Assembly Routine Using STD Works in QB 3.00, Not 4.00
+Q33628 LINK "Too Many Groups in One Module" with 30+ Named COMMONs
+Q33629 "Illegal Function Call" SHELLing to More Than 124 Characters
+Q33630 Handling ImageWriter LQ/LaserWriter Printing Problems in BASIC
+Q33687 Temporary Memory in SUBprogram Is Not Deallocated after CALL
+Q33706 Sample Basic Code to Display ROM-BIOS Date for an IBM PC
+Q33707 "Error R6000: Stack Overflow" in Non-Stand-Alone Program
+Q33712 "Subscript Out of Range" DIM SHARED Dynamic Array in SUBmodule
+Q33714 Passing Strings to Assembler Routines Written for GW-Basic
+Q33715 "Floating Point Error" with Inboard 386 Configured Incorrectly
+Q33732 COM1 and COM2: Communications Device Default Buffer Size
+Q33735 255 Dimensions Per Array in Interpreter, 7 in Compiler
+Q33736 CHAIN, RUN, and KILL Statements Do Not Use MS-DOS Search PATH
+Q33737 Macromaker Menu Item May Appear in Middle of Menus
+Q33813 Copying Macintosh BASIC Screen to Hercules Screen on IBM PC
+Q34011 BASIC 2.x and 3.00 Desktop Icons Changed to QuickBASIC Icons
+Q34012 "Device Unavailable","Device I/O" Network ImageWriter Printing
+Q34013 Problems Using ImageWriter Graphics Mode; "LPT1:BIN"
+Q34016 "Cones" Demo Deliberately Has "Invalid Function Call"
+Q34113 Use CONST N=45, Not CONT N=45, Documentation Error in 4.00
+Q34273 QB.EXE Visibility, IBM PS/2 Model 50,60,80, Monochrome Monitor
+Q34275 BUG: Change Option in Search Menu May Not Replace All Values
+Q34276 BUG: System Error/Hang w/ $CHECK ON Metacommand & SUB Program
+Q34279 Cannot Pass More Than 21 Dynamic Array Elements to Subprogram
+Q34281 BUG: Pressing BACKSPACE on Breakpoint Line Del Wrong Character
+Q34282 BUG: Highlighted Text Disappears When List Window Redisplayed
+Q34286 README File for QuickBasic Compiler 1.00 for Apple Macintosh
+Q34287 MAC QB 1.00 README: Resources Stored in Source & Application
+Q34288 LIST <Line> Moves to Specified Line in QuickBASIC Editor
+Q34290 Negative Math/Overflow in Compiled Program; OK in Interpreter
+Q34291 Using Same Source to CHAIN When Both Interpreted and Compiled
+Q34292 Understanding Floating-Point Differences in Mac QuickBASIC
+Q34331 MAC QB 1.00 README: SYSTEM(7) Returns Resource File Reference
+Q34332 MAC QB 1.00 README: Compile Statement Mover Program for Speed
+Q34333 MAC QB 1.00 README: Custom LIBinit and LIBterm; LIBRARY
+Q34334 CALLing Library Routines with ! Required Only for DEFSTR
+Q34335 QuickBasic BackColor Routine Is Faster Than ROM BackColor
+Q34336 MAC QB 1.00 README: BlockMove Works for Overlapped Memory
+Q34337 MAC QB 1.00 README: CopyFile Moves Both Data and Resource Fork
+Q34338 MAC QB 1.00 README: Eject Routine for Both Floppy Disk Drives
+Q34339 MAC QB 1.00 README: "Exists" Routine Tests if File Exists
+Q34340 QuickBasic ForeColor Routine Is Faster Than ROM ForeColor
+Q34341 MAC QB 1.00 README: GetCatInfo & GetFCBInfo; GetPathName Demo
+Q34342 MAC QB 1.00 README: GetChanRefNum; OPEN # -> File Reference #
+Q34343 MAC QB 1.00 README: GetHandleSize Gives Size of a Resource
+Q34344 ScrollText Example to Specify Leading Spacing in Scroll Bar
+Q34345 MAC QB 1.0 README: Use SubLaunch to Run Any Mac Application
+Q34346 MAC QB 1.00 README: "Out of Memory"; Changing SIZE resource
+Q34347 MAC QB 1.00 README: If CHAIN "Out of Memory," Change Stack
+Q34348 MAC QB 1.00 README: Search Menu Features Explained Further
+Q34349 MAC QB 1.00 README: COMMAND-K, No Prompt if Application Exists
+Q34350 MAC QB 1.00 README: Options... Box Add "Save Before Compiling"
+Q34351 Mac QB 1.00 README: Creating Application and Document Icons
+Q34352 MAC QB 1.00 README: How to Send Screen Graphics to Printer
+Q34353 MAC QB 1.00 README: How to Resolve Unknown Error Messages
+Q34354 MAC QB 1.00 README: Old Library CODE Resources Can Hang
+Q34355 MAC QB 1.00 README: Single-Voice Sound Hang if TMON Active
+Q34356 MAC QB 1.00 README: Changing Names of QB Run-Time Libraries
+Q34404 QB 4.00b/BC 6.00 Now Offers Global ON ERROR Handling
+Q34407 BSAVE/BLOAD File Format Explained for Basic; 7-Byte Header
+Q34606 BUG: First PRINT after Resizing Output Window Is Lost
+Q34607 Adding More Lines of Statement Help in QuickBASIC "Set Info.."
+Q34608 BUG: Syntax Error Loop Using Option Characters in Interpreter
+Q34609 BUG: "Device I/O" Error When Save w/ MS Mail & Not on Network
+Q34610 WRITE# Statement Works with Semicolon Despite BC.EXE Error
+Q34682 Communications (COM1:, COM2:) Receive Buffer Lost During CHAIN
+Q34812 How to Make QuickBASIC Smaller to Fit on Bootable Floppy Disk
+Q34813 "Type Not Defined" after Saving Program in QB.EXE; Use AS ANY
+Q34917 PRINT to Viewport Has Screen's Background Color Not Viewport's
+Q34936 Directory of Macintosh User Groups in September 1988 MacWorld
+Q34959 BUG: Extra Insertion Point on List Window
+Q34981 "Expected End of Statement," Line Label with Leading Numeric
+Q35143 Using GOSUB, GOTO, ON Event GOSUB, ON ERROR GOTO in Modules
+Q35146 QB.EXE Editor Printing Source Code to 132-Column Printers
+Q35147 Capturing Paintbrush and FRIEZE Screens with QuickBasic BSAVE
+Q35148 Underline, Reverse, Intense, Blinking in Monochrome SCREEN 0
+Q35149 How to BSAVE and BLOAD Arrays Larger Than 64K
+Q35151 WYSE 1400 Keyboard Input Is Not Recognized by QuickBasic
+Q35153 No Underlining on Color Display in Basic Text Mode, SCREEN 0
+Q35240 On IBM PS/2 MCGA, SCREEN 1 and 2 Are Monochrome
+Q35241 Using Dual Video Display Cards and Monitors with QuickBasic
+Q35244 To Suppress Linefeed, OPEN "lpt1" BINARY or "LPT1:BIN" RANDOM
+Q35245 Fixed-Length Strings Are Initialized to NULL (0), Not Blanks
+Q35247 QB.EXE "Bad File Mode" if First Character Extended ASCII
+Q35248 No Data Type for 80-Bit Precision IEEE Real Numbers in Basic
+Q35249 Correction for MHex$ IEEE Number Format Example for 4.00
+Q35270 Installing Compilers on a Network Violates License Agreement
+Q35324 FIX: Window 1 or 7 Size Box Looks Incorrect in Compiled App
+Q35325 BUG: $ Not Bold in EDIT$, FILES$, INPUT$, PICTURE$
+Q35326 FIX: Syntax Error TIME$ to TIME$$ Loading Compressed 2.00 File
+Q35328 FIX: SHIFT+Double-Click Selects Vertical Box Wrong InsertPoint
+Q35329 BUG: Decimal Math QuickBasic, PRINT USING <Long Int> Gives 0
+Q35330 BUG: CINT <Long> Bad Value or Run Error 6 Compiled for 68020
+Q35357 BLOAD Can Fail with Older Monochrome Cards; Newer Cards OK
+Q35358 FIX: Mac QuickBasic "Line Too Long" Pasting on Breakpoint Line
+Q35439 QuickBasic Incompatible with Radius, Prodigy Accelerator Board
+Q35509 Macintosh Directory List & File Search Across Folders/Drives
+Q35516 BUG: Binary QuickBasic Default Compiled Exponent (^) Bad
+Q35626 Memory Map Correction for Mac QuickBASIC Compiled Applications
+Q35651 ASCII Codes That Do Not Output Using SCRN:, CONS:, or PRINT
+Q35653 ERDEV & ERDEV$ "Advanced Feature" Error in OS/2 Protected Mode
+Q35654 "Bad Record Length" if PUT#1,,x$ Where x$ Length = Buffer Size
+Q35657 "Out of Data"; Incorrect CALL Example Mac QuickBASIC Page 61
+Q35658 "Array Already Dimensioned" if 2nd DIM for Static Array in IF
+Q35659 QuickBASIC "Device I/O Error" Using CloseResFile on Source
+Q35660 DO LOOP and EXIT WHILE Not Supported in Macintosh QuickBASIC
+Q35661 @, ], and [ Do Not Have Special Meanings in Mac QuickBASIC
+Q35662 "Out of Memory" in MS-DOS 4.00, OK in MS-DOS 3.x; 30K Impact
+Q35664 Create Your Own Non-ASCII Graphics Characters in CGA Graphics
+Q35665 INPUT, INKEY$, or INPUT$(n) Don't Accept All ASCII Characters
+Q35666 In QB.EXE, Improper FOR NEXT Control after NEXT Is Inserted
+Q35667 OP Parameter Fails to Make OPEN "COM1:" Wait Indefinitely
+Q35712 "CLIP:" Clipboard Contents Not Available Across MultiFinder
+Q35715 Multiple "Can't Find: <file>" Prompts on Write-Protected Disk
+Q35716 INPUT Hercules Cursor 2 Pixels High in GWBasic, 1 in QB 4.50
+Q35717 SubLaunch May Not Work in MultiFinder, but Works in Finder
+Q35718 FOR with Conditional IF...THEN NEXT Causes Problems
+Q35719 Macintosh QuickBASIC May Load Wrong or Unexpected File
+Q35720 Changing QuickBASIC's SIZE Resource to Help "Out of Memory"
+Q35762 Explanation of Resources Stored in Macintosh QuickBASIC 1.00
+Q35810 BASIC Can't Make Desk Accessory, Pure Code, or XCMD Resource
+Q35825 Undocumented BC.EXE Metacommands That Affect .LST Listing
+Q35826 IEEE vs. Microsoft Binary Format; Rounding Issues (Complete)
+Q35829 SOUND WAIT Fails Without Multivoice Mode in Macintosh BASIC
+Q35830 No Support for Color Hercules Graphics Adapters in QuickBasic
+Q35875 How to Obtain Names and Sizes of All Current Macintosh Fonts
+Q35885 LONG INTEGER Overflow Is Not Detected in EXE
+Q35886 Differences Between MS-DOS and Macintosh QuickBasic Statements
+Q35887 BC.EXE "Internal Error" Occurs if Line Number 0 Is Used
+Q35888 CTRL+PRINT SCREEN Fails in EXE Compiled with BCOM Library
+Q35898 Complete QuickBASIC Program to Browse & Expand Get Info.. Help
+Q35964 Passing Basic Dynamic Arrays of Fixed Strings to MASM 5.x
+Q35965 Which Basic Versions Can CALL C, FORTRAN, Pascal, MASM
+Q35966 Using LIB.EXE to Add, Modify, and Combine .LIB; Quick Library
+Q35968 CALL SetUEvent in Assembly Routine to Disable PRINT SCREEN
+Q35969 Do Not Mix Arrayname AS Type and % Type Suffix in DIM/COMMON
+Q36022 How to BSAVE/BLOAD EGA SCREENs 7, 8, 9, 10 in QB 2.x, 3.0
+Q36023 "Statement Illegal in TYPE block" Due to Line Identifier
+Q36027 How to Make PostScript Escape Font for QuickBASIC Application
+Q36028 .EXE "String Space Corrupt" Actually Is "Duplicate Definition"
+Q36030 QuickBasic Uses File Handles, Not File Control Blocks (FCBs)
+Q36047 REMLINE Mac Basic Program Removes Unused Line Numbers
+Q36079 Macintosh QuickBASIC Can't Compile in MultiFinder's Background
+Q36080 SYSTEM(7) or OpenResFile Gives Resource File Reference Number
+Q36333 How to Compile a Batch of Files with Macintosh QuickBasic
+Q36334 When Macintosh QuickBASIC 1.00 Might Forget Compiler Options
+Q36349 How to Avoid "String Too Long" Using PICTURE$ Function
+Q36350 Why Imported Color/Gray Scale Picture Fails to Draw in BASIC
+Q36359 How to Load Programs Faster for Compilation in Mac QuickBASIC
+Q36392 How to Use HFSDispatch to Create a Macintosh Folder
+Q36394 How the Macintosh QuickBASIC GetPathNames Program Works
+Q36395 How to Use REM or ' Comments in DATA Statements without Error
+Q36397 Must Use A$=INKEY$ after SLEEP to Clear Keyboard Buffer
+Q36576 CTRL+Z Embedded in Source Truncates BC.EXE Compilation
+Q36578 "Bad File Mode" Loading 4.50 Fast Load Format File into 4.00
+Q36644 Program to Compile QuickBasic Programs from Macintosh Desktop
+Q36735 Macintosh QuickBASIC Does Not Use SANE for Floating-Point Math
+Q36736 RANDOMIZE Statements Reseed but Don't Restart RND Sequence
+Q36737 Longer Variable Names Take No Extra Space in .EXE Program
+Q36738 Third-Party TSR for Printing Hercules Graphics Screens
+Q36806 Softkey String for KEY 10 Has 5-Character Maximum Display
+Q36808 Line Number 65,529 Is the Maximum Supported by QuickBasic
+Q36809 Do Not Nest FOR/NEXT Loops with Same Counter Index Variable
+Q36894 Predefined Key ON KEY(n) GOSUB Trap Supersedes User-Defined
+Q36898 CTRL+INSERT to Copy Selected Text May Fail in QB.EXE 4.50
+Q36899 The BC /FPa Option Is Not Supported by QuickBasic Compiler
+Q36900 QB.EXE 4.50 ALT+File+Load File Command Doesn't Recognize D Key
+Q36901 Numerical Calculations and Loops Are Faster with Integers
+Q36902 LOCATE Draws Cursor Differently on Monochrome Versus Color
+Q37029 "Invalid Constant" Using Variable for Length of Fixed String
+Q37030 Basic Memory Model: Determining Segment Sizes with LINK /MAP
+Q37031 PRB: Printer Error May Make Program Appear to Be Hung
+Q37093 Toggling DTR Handshaking Line (Pin 20) with OUT Statement
+Q37094 WIDTH Clears the Screen When Setting EGA 43-Line Mode
+Q37163 How to INPUT Text without CTRL+BREAK Stopping Execution
+Q37299 Mac QuickBASIC Reserved Words Marked "*" Means Not Implemented
+Q37300 QuickBASIC Maximum String Size Is 32767; 255 Saved as Resource
+Q37301 Why QuickBASIC's "Generate 68881 Code" Option Dims Out
+Q37303 QuickBASIC 1.00 is Not Compatible with AppleShare File Server
+Q37305 LONG Integer Parameter Passed to SUB Fails after Assignment
+Q37306 "Device I/O Error" If Keyboard Buffer Filled During "COM1"
+Q37307 Conditionally Loading QBHERC Hercules Support from QuickBasic
+Q37308 Graphics GET and PUT Require Integer or LONG Array; Example
+Q37309 QB 2.x and 3.00 INT86 Requires VARPTR, but Not 4.00 INT86OLD
+Q37310 LPRINT Forced to Screen Using OPEN in FUNCTION Procedure
+Q37311 A Handle Points to a Pointer to a Macintosh Heap Block
+Q37312 Example of Toolbox Register ROM Call for Date/Time Conversion
+Q37313 QuickBASIC String Descriptor Has Six Bytes: 3.00 Has Five
+Q37314 Metacommands Ignored inside Macintosh QuickBASIC Interpreter
+Q37315 Macintosh QuickBASIC Example to Create and Use Scroll Bars
+Q37317 FIX: Page Setup Isn't Supported in Macintosh QuickBasic Env
+Q37318 How to Input Image from Clipboard, Output to Screen or File
+Q37319 QB.EXE Editor Fails to Flag Extra ELSE Clause as Syntax Error
+Q37320 BUG: Dynamic Array Element in OCT$/HEX$ Return Bad If Compiled
+Q37340 MS-DOS QuickBasic 4.00 Differs from XENIX Basic Compiler 5.70
+Q37341 How to Create Your Own Font in Character Mode for EGA Text
+Q37343 How to Define Your Own Font in Graphics Mode for EGA or VGA
+Q37344 How to Use Extended/Expanded Memory RAMDrive for Data Storage
+Q37345 BIOS Interrupt to Read Sector, Get Disk Status, Find Errors
+Q37346 RUN "PROG.EXE" Fails in QB.EXE Editor; Use RUN "PROG" Instead
+Q37347 "Device Unavailable" on OPEN "COM1:" Compiled with BC /O/S
+Q37348 New COMMAND$ Will Not Pass with RUN from within VB Program
+Q37405 "Device I/O," Error 57, Using SCREEN 3 and Communications Port
+Q37412 MS Press "Programmer's Toolbox" Doesn't Have .OBJ for C Code
+Q37413 EXE2BIN Cannot Convert QuickBasic .EXE Files to .COM Files
+Q37414 Cannot Nest I/O Statements or Functions in I/O Statements
+Q37415 QuickBasic 4.50 and Earlier May Not Work with MS-DOS 4.00
+Q37416 QuickBasic Hasn't Been Tested with PC-MOS or Concurrent DOS
+Q37417 SHELL Statement Loses Current Data in Serial Port Input Buffer
+Q37418 LINK "Cannot Open Response File" When Make EXE File in 4.50
+Q37419 Program to Translate QuickBasic 4.00 to C Language
+Q37420 BSEDOSPC.BI Is Missing DosSetSigHandler Definition; for OS/2
+Q37421 Two Basic Methods to Save & Restore Text Screens in DOS & OS/2
+Q37422 Using Assembler to Save and Restore Text Mode Screens in QB
+Q37423 QuickBasic Support Hours, Press Release October 1990
+Q37425 REM $INCLUDE Versus MERGE in QuickBASIC Compiler & Interpreter
+Q37475 User-Defined Character Fonts for Hercules Graphics Mode
+Q37477 README.DOC File from QuickBasic Version 4.50 Utilities 2 Disk
+Q37481 PRINT USING Statement Fails to Use Print Zones
+Q37483 CHAIN "RETURN Without GOSUB" When Using ON ERROR GOTO & No /O
+Q37484 SCREEN Function Returns 32 for ASCII Byte 196 in SCREEN 3
+Q37646 FOR...NEXT with 32767 or -32768 Index Fails to Stop Unless /d
+Q37769 Using Run-Time Module, RUN Makes Program Lose 70K Memory
+Q37770 "Program Memory Overflow": Break into SUBprograms
+Q37774 "Hit Any Key..." If CHAIN or RUN from Error Handler; BC /O
+Q37882 Call Microsoft MOUSE from QB 4.x Using Assembler, INTERRUPT
+Q37884 "File Not Found" or Hang Using INIT with Macintosh QuickBasic
+Q37895 Macintosh QB Limits for Names, Strings, Numbers, Arrays
+Q37896 QB 4.50 Help "RND(n) Function Details" Correction for n = 0
+Q37897 INPUT Statement Removes Unquoted Leading and Trailing Spaces
+Q37898 Bibliography Reference for QuickBasic: Graphics, Tutorials
+Q37900 Do Not LINK Multiple Modules with /PACKCODE
+Q37903 ON TIMER GOSUB; ON PLAY Time Increments Smaller Than 1 Second
+Q38068 PRINT SCREEN (Hardware Interrupt 5) Fails If Printer Is Busy
+Q38069 "Division By Zero" Dynamic, Fixed-Length STRING*1, 64K+ Array
+Q38070 Macintosh QuickBASIC Change: Register-Based Toolbox ROM Call
+Q38071 "Permission Denied" If SHELLed Process Accesses Same OPEN File
+Q38077 DIALOB Should Be DIALOG on Page 77 "QB for Macintosh Ref"
+Q38273 PAINT Must Not Use Fixed-Length String Patterns
+Q38274 Single Precision "Overflow" when Nearing Divide By Zero;10E-38
+Q38276 "Out Of Memory" During CHAIN Using Large COMMON Block
+Q38277 LOCATE Must Place Cursor in VIEW PRINT Window or Line 25
+Q38278 User-Defined TYPE vs. FIELD and MKS in Random-Access File PUT#
+Q38374 Must Initialize Toolbox-Routine Parameters; GetDirName Sample
+Q38475 Change for SELECT CASE Example 2 in QB.EXE 4.50 On-Line Help
+Q38488 Cannot Make EXE... with BRUN45.EXE if Full Menus Turned Off
+Q38492 FILEATTR Gets MS-DOS File Handle to Get File Date/Time Stamp
+Q38493 CodeView Problem Stepping into Basic GOSUB Compiled /X or /D
+Q38497 Cursor May Disappear in EGA 43-Line Mode Using Logitech Mouse
+Q38498 "Expression Too Complex" Error when Compiling with BC.EXE
+Q38499 Statement Mover Is in Tools Folder, Not in QB Demos Folder
+Q38500 ABOUT, WAIT Are Reserved and Unimplemented; RENUM Misspelled
+Q38641 Changing Macintosh System Can Make QuickBASIC Fail to Run
+Q38878 Calling a BIOS Interrupt to Determine the Scan Code of a Key
+Q38883 License Agreement: Copyright Notice for Sign-On and Disks
+Q38886 Leading Edge Display Problems with QuickBasic Version 4.50
+Q38888 &H8000 to &HFFFF Hex = -32,768 to -1, Affects LONG Bit Masking
+Q38889 LINKer Error with /Q and /E; Can't EXEPACK Quick Library File
+Q38957 How to Get 3.5-Inch Disks for QuickBasic for MS-DOS
+Q38960 QuickBasic 4.50 Editor Aborts Exit if Key Pressed During Save
+Q38961 "Input Run-Time Module Path:" on DOS 2.10; QuickBasic 4.50
+Q38962 Can't Highlight on PS/2 Model 60 If Sidekick Is Resident
+Q38963 MouseTrak Mouse Reportedly Does Not Work with QuickBasic 4.50
+Q38964 QuickBasic 4.50 Incompatible with Sperry 8086 PC with IBM CGA
+Q39094 Example TOOLBOX Routine for Moving a WINDOW; System Can Bomb
+Q39095 How to Pop Up a Desk Accessory from Macintosh QuickBASIC
+Q39096 FIX: COMMAND+PERIOD During LPRINT May Hang Mac QuickBasic
+Q39097 FIX: Bad Compiled Floating Point w/ Static Arrays & 68020 Code
+Q39185 BC.EXE "Variable Name Not Unique" Using Period in Identifier
+Q39187 "Bad File Name" OPENing "COM1:" with 1.5 Stop Bits
+Q39188 TIMER Example; Sieve of Eratosthenes Prime Number Correction
+Q39191 Cannot CHAIN to Earlier QuickBasic Version Unless Stand Alone
+Q39193 Tandy 3000, EGA Card, RGB CM11 Monitor, incompatible w/ 4.50
+Q39238 "File AB45ADVR.HLP Not Found" QB Advisor 4.50, ERASE Example
+Q39239 "Expression Too Complex", "Stack Overflow", Adding Strings
+Q39240 No Line Continuation in Macintosh QuickBASIC; Break Long FIELD
+Q39242 Macintosh QuickBASIC Manual Correction: Array1, Array2 Sizes
+Q39243 Figure 7.3 Is Non-Existent: Should Be Corrected to Figure 2.2
+Q39245 BC.EXE "Internal Error" Using Passed Integers in Expression
+Q39246 No QB Support for Mixed Languages Compiled with /FPc or /FPa
+Q39248 QB.EXE 4.x Doesn't Save Screen Settings on Hercules Adapter
+Q39251 NOCOM.OBJ Supplement for QuickBasic 4.50 for Smaller .EXE
+Q39252 ON KEY Trapping CTRL, SHIFT, CAPS LOCK, NUM LOCK Combinations
+Q39253 QB 4.50 Debugger Reference Bar Displays until STOP or END
+Q39255 How to Change COM1 or COM2 Parameters While Port Is Open
+Q39256 QuickBasic May Not Function with 25-MHz 80387 Coprocessor
+Q39257 Hardware Compatibilities with QuickBasic Version 4.5
+Q39260 "Symbol Defined More Than Once"; Linking Basic and FORTRAN
+Q39261 Don't Mix .OBJ or .EXE Modules Compiled in Different Versions
+Q39342 How to Solve Common QuickBasic Communications Port Problems
+Q39360 Macintosh QuickBASIC Runs OK on the Macintosh IIX Computer
+Q39362 QuickBasic Compile Errors Not Given in M.EXE Editor; No BC /Z
+Q39363 Mac QuickBASIC File Browser Example Views & Prints Text Files
+Q39367 QCARDS Code Entry 19 Correction; Press SHIFT+F6 Once
+Q39368 QuickBasic Program to Rotate Characters and Graphic Images
+Q39377 Amount of RAM Required by QUICKBasic Applications
+Q39378 "Formal Parameter Specification Illegal" for DECLARE Variable
+Q39379 QB.EXE 4.50 "Binding..." then Hang If SWAP User-TYPE Strings
+Q39380 GET with BINARY File Fills String with NULL Bytes at EOF
+Q39381 Basic Supports MASM 5.10 Update .MODEL and PROC Extensions
+Q39382 QuickBasic 4.50 QB.EXE Does Not Allow CTRL+P, ESC Sequence
+Q39386 Error Message Explanations When Using COM1: and COM2:
+Q39576 Use "LPT1:PROMPT" for Mailing Labels/Other Printer Paper Sizes
+Q39577 DRAW "Illegal Function Call" In .EXE Compiled with BC /D
+Q39578 CHR$(0) PRINTs As Space to Screen; LPRINTs Nothing to Printer
+Q39579 How To Get an Earlier Version of QuickBasic for MS-DOS
+Q39580 QuickBasic SETUP Works Only from Logical Disk Drive A or B
+Q39587 QB Advisor 4.50 "Help: ON ERROR Statement Details" Correction
+Q39589 BUG: Extra $ with PRINT USING "$$" Format in Mac QuickBasic
+Q39592 In QB.EXE 4.50, No Editor Color on TANDY 1000 with CGA
+Q39730 Version History of Microsoft QuickBasic for MS-DOS
+Q39732 In QB.EXE 4.5 on Tandy 1000 SX, \ Key Acts Like HOME Key
+Q39853 Networks Supported by QuickBasic, Basic Compiler & Basic PDS
+Q39859 CALL INTERRUPT 25H Doesn't Return Error Flags in the AX Reg
+Q39860 Cannot Nest ON ERROR GOTO Error-Trapping Routines in Basic
+Q39866 Quick Library Routines Must Be Compiled in Same Version as QB
+Q39870 BUG: MBPC LIBRARY Fails in Compiled Mac QuickBasic w/o LIBINIT
+Q40038 LIBRARY Statement "INPUT PAST END" If Bad or Empty Library
+Q40080 Closing Active Macintosh Window Doesn't Activate Other Window
+Q40083 Refresh Basic Windows with ON DIALOG GOSUB or SetWindowPic
+Q40086 FIX: Date2Secs MBLC, Bad Seconds for Secs2Date
+Q40139 NORTON Programming Guide for BasicS (TSR) Fails with QB 4.50
+Q40140 BUG: DragGrayRgn Works Differently in QuickBasic
+Q40152 How to Incorporate Paintbrush (PCX) EGA File into QB SCREEN 9
+Q40154 QB.EXE "OUT OF MEMORY" after SHELL to DOS PRINT, MODE, ASSIGN
+Q40155 QB.EXE 4.50 Bad Alert Box if User TYPE "Element Not Defined"
+Q40188 FRE(-2) Returns Fixed Lowest Value Even After Stack Shrinks
+Q40189 SADD Function Will Not Accept Concatenated or Quoted Strings
+Q40190 Same Access Speed for Static, Dynamic Arrays If Debug Is On
+Q40271 BUG: OpenResFile "Bad File Mode" Opening Macintosh Application
+Q40361 QuickBasic Cursor Position Incorrect after Interlanguage Write
+Q40362 Programs LINKed with Incorrect Version of LINK.EXE May Hang
+Q40368 QuickBasic 4.50 Does Not Return to 25-Line Mode after Make EXE
+Q40369 NUM LOCK On; ALT+BACKSPACE Fails on IBM PS/2 Model 50 and 60
+Q40370 Modifying INTERRUPT and INT86OLD So Critical Errors Won't Hang
+Q40371 Using Medium and Large Memory FORTRAN Models with Basic
+Q40372 Macintosh Alternate Video Buffer Not Supported by QuickBASIC
+Q40373 Scroll Bar Cannot Be Placed in Right Bar of WINDOW Type 1 or 7
+Q40409 BUG: Mac QuickBasic Renamed File Reverts to Old Compiled Name
+Q40412 Reviews of Macintosh QuickBASIC 1.00 in MacWorld and Byte
+Q40413 Recursive FUNCTION Procedure Shouldn't Be STATIC in QuickBasic
+Q40545 ALT+PLUS/EQUALS Doesn't Size QB.EXE 4.50 Window; Must SHIFT
+Q40547 BC.EXE Will Not Compile Files Named USER.*
+Q40548 Using CALL INTERRUPT to Determine Current Video Mode
+Q40549 QB.EXE May Overwrite File Allocation Table If Floppy Switched
+Q40553 Bad Results with Recursion of STATIC Procedure in QB.EXE
+Q40592 SHELL Redirected to NUL Device Suppresses MS-DOS Message
+Q40631 QB.EXE 4.x Won't Trace or Single Step through KEY Routine
+Q40632 If PRINT Fails on Non-Standard System, PRINT#n to "CONS:"
+Q40633 SCREEN 4 Fails on COMPAQ Portable III and Sharp Laptop
+Q40635 "Permission Denied" Is Only Error for Basic Record/File LOCK
+Q40636 Why QuickBasic Might Hang; Hardware or Software Conflicts
+Q40712 BUG: SetOrigin Diff in Compiled vs. Interpreted Mac QuickBasic
+Q40713 Macintosh BASIC Example to TAB between Multiple EDIT FIELDs
+Q40714 In Macintosh BASIC, FILES$(0) Doesn't Create File; OPEN Does
+Q40715 Locked Printer Driver File Can Hang Macintosh QuickBASIC
+Q40716 QuickBasic 4.5 Disk Directory Contents (5.25-Inch)
+Q40718 Basic TYPE...END TYPE Must Be Physically at Top of Program
+Q40720 How to Change "About Application..." Using ResEdit
+Q40722 BUG: Mac QuickBasic Compiled Decimal Math Div Error 1D+62 / x
+Q40724 Compiling Mac QuickBASIC Program with !Vaccine C_DEV Installed
+Q40859 Cannot Use FN at Beginning of SUB or Variable Names
+Q40869 BC 6.00 Example of Single Process Using OS/2 Queue API CALLs
+Q40877 With QB /L, "Far Heap Corrupt" After Deleting Module
+Q40884 Passing a LONG INTEGER Array to FORTRAN 4.10 From QuickBasic
+Q40885 Passing a Single-Precision Array to FORTRAN from Basic
+Q40886 PUT Statement Correction, Page 342 QB Language Reference
+Q40887 Macintosh QuickBASIC Program to Hide/Unhide File in Finder
+Q40889 How to PRINT Superscript/Subscript Letters in Mac QuickBASIC
+Q40890 BC "Variable Name Not Unique" on SUB with Period in Name
+Q40897 If Communications Buffer Overflows During Output to "COM1:"
+Q40951 How to Poll MOUSE(0) to Detect Single, Double, Triple Click
+Q40952 No Variable Name Cross-reference for QuickBasic for MS-DOS
+Q41003 Missing Options in QuickBasic 4.50 Editor without Full Menus
+Q41004 "UNRESOLVED EXTERNAL"; Can't Call External from Quick Library
+Q41040 QuickBasic WIDTH Command Resets Default Values for PALETTE
+Q41041 QB.EXE 4.50 Instant Watch... "STRING SPACE CORRUPT" or Hang
+Q41042 AppleTalk Network Connects Apple Macintosh and Printers
+Q41043 No Warning If GET or SEEK Past End of Random File; Use EOF(n)
+Q41086 IEEE Number Range Correction for QB 4.0 "Learning and Using"
+Q41146 QB 4.5 SHELL Forces Linefeed if Cursor Is on Line 25
+Q41147 Getting Help on NULL CONST String Hangs QB 4.50 Editor
+Q41148 CTRL+Q+X Moves Cursor to Bottom of Window in QB 4.50 Editor
+Q41149 Single Precision Numbers Have 1 to 7 Digits; Double Have 8+
+Q41150 SEEK Function Not Hyperlinked to SEEK Statement in QB Help
+Q41151 Function KEY Strings Retained After CHAIN in QuickBasic 4.x
+Q41152 Same Random File Opened with Multiple Handles Loses Records
+Q41153 "AS Clause Required" Error for REDIM Not Detected in QB 4.50
+Q41154 Towers of Hanoi: QuickBasic 4.50 Recursive SUBprogram Example
+Q41388 .EXE Compiled BC /S May Not Print String in PRINT TAB(n),A$
+Q41389 SIGNAL Is Basic Reserved Word; SIGNAL ON Usable Only in OS/2
+Q41390 Handling Events and ERRORs When Basic Calls Non-Basic Routines
+Q41392 Macintosh QuickBasic "Packing List", Release Disk Contents
+Q41394 Saving Source with Error in SUB Statement Reloads Incorrectly
+Q41395 COLOR "Illegal Function Call" in SCREEN 2; Use PALETTE on EGA
+Q41396 In QB, "Blank lines Not Allowed before SUB/FUNCTION" Misleads
+Q41398 Garbage with PRINT TAB, Array Element in .EXE Compiled in 4.5
+Q41446 QB 2.x/3.00 Example to Load DOS Directory Listing into Array
+Q41447 Examples of Loading MS-DOS Directory Listing into an Array
+Q41525 BC Command-Line Options in QuickBasic Version 4.50
+Q41531 How to Calculate Absolute Address; DEF SEG and PEEK Example
+Q41532 FRE(-1), FRE("") Both Reduced by Run-Time String Allocation
+Q41533 Basic 7.00 Can Return Exit Code (Error Level) to Batch File
+Q41534 ON KEY (n) GOSUB Cannot Trap for SCROLL LOCK Status; Ignored
+Q41535 Syntax Differs When Calling a SUB without the CALL Keyword
+Q41536 PRINT TAB Can Change Value of Parameter in Subprogram
+Q41537 QB Editor Causes Fourth Line to Be Overwritten by Third Line
+Q41581 More Information about Basic's DRAW Statement Macro Language
+Q41582 Amdek Has CLREPC.EXE to Help with Keyboard Incompatibilities
+Q41583 LINK Options Can Be Specified in AUTOEXEC.BAT with SET LINK=
+Q42321 Syntax Error, Duplicate Definition, Expected:Variable=Express
+Q42322 Screen Width and Height for Macintosh Plus, SE, and II
+Q42323 "Symbol Defined More Than Once" Linking to QuickC 2.00 Routine
+Q42324 Period in Name of NAMED COMMON Can Erase BLANK COMMON Values
+Q42325 4.50 Language Manual Error Page 33 "while program is running"
+Q42326 Wrong Example in QB Advisor for CALL INTERRUPT
+Q42329 PRINT SPC(80) Statement May Not Wrap to the Next Line
+Q42361 "Bad File Name or Number" (Error 52) If CANCEL "LPT1:PROMPT"
+Q42364 Debugging System Errors in Compiled Programs with Mac Debugger
+Q42368 OPEN with No Path Defaults to Current Folder; CHDIR Changes
+Q42462 "Invalid Function Call"; OpenResFile Makes Empty File; Path
+Q42463 How Macintosh QuickBASIC Uses Resource and Data Forks of Files
+Q42464 OpenResFile; Resources May Save Incorrectly in Interpreter
+Q42465 CALL ABSOLUTE Hang; Assembly Must Use CB Return Instruction
+Q42466 "RETURN Without GOSUB"; Btrieve BTVRFAR Fails with Basic
+Q42467 If FRE(-2) Returns Small Negative Values, Increase Stack
+Q42468 QB.EXE Hang or "Division by Zero" with Labeled REM $INCLUDE
+Q42469 FOR...NEXT with Floating-Point Counter May Not Execute Fully
+Q42470 If BC /O, CHAIN "x.BAS" Fails to Give Run-Time Error and Hangs
+Q42471 How to Scroll Text in Separately Defined Windows in QuickBasic
+Q42472 Basic Cannot Get Child Process Return Code or "Error Level"
+Q42473 "Overflow" Error Might Be the Result of 0/0
+Q42474 "Array Not Defined"; Must DIMension Array Above Its First Use
+Q42475 Basic Uses ALIAS to DECLARE C Routines with Underscore in Name
+Q42476 "Subscript Out of Range" Then Add REM $DYNAMIC Hangs QB 4.50
+Q42516 How to Print or View QuickBASIC Compiler "lst" Listing File
+Q42550 Use Long Integer with PEEK, PEEKW, and PEEKL; SINGLE Can Fail
+Q42553 "Illegal Function Call" Using VIEW, WINDOW, GET, or PUT
+Q42586 Variable with Periods in COMMON Block Can Cause Problems
+Q42587 VB for MS-DOS Program to Change Mouse Shape in Grahpics Mode
+Q42588 "Variable Required" Versus "Duplicate Definition" Error
+Q42593 Problem Using the Edit Keys on Zenith 184 Supersport Laptop
+Q42595 VARSEG Incorrect for COMMON String Array Passed Through CHAIN
+Q42596 Basic's SETMEM Doesn't Free C Far Allocation; _fmalloc, _ffree
+Q42660 QuickBasic Updates Screen Faster than CGA Can Update
+Q42662 Corrupt Parameters in SUB Using PRINT with Comma; BC.EXE 4.50
+Q42663 Suppressing CR/LF on "LPT1:BIN" after Every 80 Printable Bytes
+Q42664 QB.EXE Confusing If TYPE Statement Used in SUB/FUNCTION
+Q42665 "Bad Record Length" GET#n,,x$ Variable-Length String from File
+Q42666 QB.EXE "Type Mismatch", BC.EXE "String Expression Required"
+Q42667 Accessing Huge Array (Larger Than 64K) Can Hang 386 Computers
+Q42668 "Statement Illegal in TYPE Block" Using F7 in QB.EXE Debug
+Q42669 LINE INPUT#n Drops Null Characters from File; Use INPUT$
+Q42699 Put COMMAND.COM on Each Disk with Two-Floppy DOS 2.10 System
+Q42700 Basic User-Entry Points Cannot Be Called from Other Languages
+Q42702 INPUT and LINE INPUT Make Macintosh Mouse Pointer Disappear
+Q42703 File with Double Underscore Hangs the QB.EXE Environment
+Q42732 CINT and Integer Assignments Round x.5 to Nearest Even Integer
+Q42804 Triple Clicking Highlights Entire Line in QuickBASIC Editor
+Q42853 Logically Same DOUBLE Precision Assignments, Different Results
+Q42854 OPENing "COM1:" for a Printer May Print Random Characters
+Q42855 Fast Load Format Can Cause "Binding..." Hang in QB.EXE Editor
+Q42856 BC.EXE "Line Too long" with ASCII 128 and Fast Load Format
+Q42857 C Escape Sequence Like "\n" Doesn't Function When Passed to C
+Q42858 OPEN "A:NUL" Activates Device Specified; "A:\DEV\NUL" Doesn't
+Q42930 BUG: Window Sizing Affects PICTURE Scaling in Macintosh Basic
+Q42946 Wrong Mouse Cursor Position Using Menus on PS/2 Model 25 or 30
+Q42947 Instant Watch on $INCLUDE File CONST Name May Hang QB.EXE
+Q42948 Compiled INPUT Doesn't Read Text Previously PRINTed on Screen
+Q42949 Example of Buffered Keyboard Input Using Basic
+Q42951 HELPMAKE Available on Disk to Extend QB.EXE 4.50 Online Help
+Q42979 QuickBASIC Example of Graphics Output to Disk and Printer
+Q42983 BACKPAT Sets Pattern Used by Subsequent CLS, or ToolBox Erase
+Q43020 (Complete) Compile-Time Error Chart for Macintosh QuickBasic
+Q43021 Making PICT Resource with PICTURE$ Picture and SavePicture
+Q43022 Making Bitmap Picture Resource with OpenPicture and AddPicture
+Q43023 QB.EXE Problem Where SETUEVENT Not Cleared Between Runs
+Q43025 INPUT or LINE INPUT Erases Existing Line When Accepting Input
+Q43090 BC.EXE Command-Line Options for QuickBasic and Basic Compilers
+Q43092 Underscore (_) Not OK in Variable Name or Line Continuation
+Q43201 RENaming a FAST LOAD/SAVE Basic Program Makes It Inaccessible
+Q43202 Decimal File Format to Binary File Format
+Q43204 FIX: TEXTFONT Reset in Interpreter on 2nd Printed Page
+Q43205 Language Ref. Page 35 Has Incorrect Double-Precision Format
+Q43206 How to Align Misaligned Columns in Macintosh Program Output
+Q43209 NUM LOCK On Affects QB.EXE Cut, Copy, Paste on Numeric Keypad
+Q43211 "Make EXE" within QB.EXE 4.00 Editor Can Hang OS/2 Real Mode
+Q43251 Language Support Directory for QuickBasic/Basic Add-Ons
+Q43252 Must DECLARE a FUNCTION Invoked from an External Library
+Q43253 Example of Playing a Sound Resource in Macintosh QuickBasic
+Q43256 CALL INTERRUPT RegType in Manual Inconsistent with QB.BI File
+Q43264 Variables Not Allowed in CASE Statement of SELECT CASE Block
+Q43266 QB/H Not Reset to 25-Line Mode After Using Make EXE And Exit
+Q43267 How to Flush File Buffers from within a Basic Program
+Q43308 Differences among QuickBasic Versions 2.00, 3.00, 4.00, 4.50
+Q43309 PRINT USING Incorrect Results, Hang for Double Precision
+Q43526 Assigning Values by PMAP to INTEGERs Can Map Incorrectly
+Q43527 Basic Program to Read Characters from the Screen into a String
+Q43528 VARPTR$ Malfunctions on Local Variable Length STRING Arrays
+Q43529 COBOL LINK.EXE 5.02.05 Causes Basic Program to Hang
+Q43530 QB.EXE 4.50 Hangs If File Unloaded While Watch Is Set
+Q43531 INKEY$ Does Not Trap Extended Keys; Must Use Softkeys
+Q43534 How to Use CALL INTERRUPT with QB, Basic PDS & VB (Complete)
+Q43560 Getting Full EXEC Pathname from Environment Table Using PSP
+Q43561 How to Create ToolBoxNewOS, ToolBoxNewTool for New ROM Calls
+Q43563 Function MENU%() Fails in Hergert's "QuickBasic, 2nd Edition"
+Q43564 L2025: Symbol Already Defined Error Caused by SIGNAL.H in .QLB
+Q43565 QuickBasic Program to Detect if a Math Coprocessor Is Present
+Q43566 BUG: Double Precision to Power of Integer Var Fails Compiled
+Q43567 SUBprogram to Convert Integer to a String in Binary Notation
+Q43568 Program That Returns the Address of an Interrupt Vector
+Q43569 Program That Prints a Hex Dump of a File to LPT1
+Q43689 QuickBASIC for Macintosh Is Not Multi-Launchable on Network
+Q43691 ENVIRON Sets Environment Variables Used by SHELL in QuickBasic
+Q43696 Problem of a Line Disappearing in QB.EXE Version 4.50 Editor
+Q43697 Lower-Right Pixels of Rectangle Not Included in FRAMERECT
+Q43698 "COMMON in Quick Library Too Small": Use NAMED COMMON
+Q43743 Cannot Search and Replace String Longer Than 39 Characters
+Q43744 Directly Connected ImageWriter LQ Problem with OPEN "LPT1:"
+Q43746 QuickBasic Program to Send a Break through COM1 Port
+Q43747 PtInRects Returns Incorrect Value with Multidimensional Arrays
+Q43782 QB Versus C, Benchmark Time Comparison for Recursive Program
+Q43783 No Color in QB Editor with Tandy RGB Adapter on Tandy 1200
+Q43784 Obtaining the Local Drive Name and Network Name; INT 21 Hex
+Q43785 Error 35 "Subprogram Not Defined" Compiling CONES Program
+Q43787 LINK.EXE 3.69 Warning L4045 When No .QLB on Quick Library Name
+Q43790 nVIR Resources Result from Infection by nVIR Virus
+Q43791 $INCLUDE with DATA Statements in SUB May Hang QB.EXE Editor
+Q43792 Macintosh QuickBASIC Compiled Program Can Give Error Line #
+Q43895 "Device Unavailable"; PS/2 SETUP Doesn't Recognize COM2 Port
+Q43896 Example of Graphics PUT on SCREEN 9 Using Bitmap DATA
+Q43899 Floating-Point Errors in QB.EXE with Coprocessor; Use SET NO87
+Q43900 VIEW SCREEN Parameters Passed through CHAIN Using BRUNxx.EXE
+Q43901 Multiple CASE ELSE Allowed in QB.EXE; Causes Compile Errors
+Q43902 Incorrect SEEK Statement Example on QB Advisor On-Line Help
+Q43930 Recursive Procedure Variables Not Saved When in COMMON
+Q44034 How Bits in PAINT Tiling String Represent Pixels in Basic
+Q44035 WAIT Statement Can Access All 65535 Ports, Not Just 0 to 255
+Q44109 How to Continue Long FIELD Statements; 255-Character Limit
+Q44134 How to Set and Restore a Clipping Region in QuickBASIC
+Q44135 Basic Program That Passes a STATIC or DYNAMIC Array to MASM
+Q44136 edhandle& Missing from Parameter List of TESETSELECT Routine
+Q44137 CALLing C to Return Single-Precision Gives Incorrect Results
+Q44213 FIX: Wrong Line Marked w/ Error Box in $INCLUDE File
+Q44229 PRINT Statements in Manual Okay without Semicolons
+Q44232 QuickBASIC Program to Disable Apple Menu from Menu Bar
+Q44233 QuickBASIC Program to Delete Apple Menu from Menu Bar
+Q44236 Only One Video Page with Hercules SCREEN 0; HELP Correction
+Q44237 Hercules Page Support for SCREEN 0 and SCREEN 3
+Q44239 Commodore Colt Limited to 112 Files in a Directory
+Q44240 Problem Editing QuickBasic 4.50 Module Without COMMON
+Q44241 .EXE with PRINT TAB or SPC Can Hang If Compiled with BC /S
+Q44305 TIME$ Used Twice in IF Statement May Differ; TIME$ 24:00 Issue
+Q44306 Method for Clearing GOSUB...RETURN Subroutine Stack in BASIC
+Q44307 Orchid Pro-Designer VGA Card Needs NMI Jumper Off for QB 4.50
+Q44309 DATA Column in BC /A Assembly .LST Listing Is DGROUP Data
+Q44311 Importing Pictures from Other Programs into Basic
+Q44352 DRAW Statement Doesn't Affect WINDOW's Physical Coordinates
+Q44356 BUG: SYSTEM(2) Function Incorrectly Returns 4 Interpreted
+Q44358 SMALLERR.OBJ Makes Smaller .EXE in QuickBasic 4.50 and BC 6.00
+Q44407 Keyboard Scan Code Table Is Missing Line 3 in QB 4.50 Manual
+Q44409 Passing Dynamic Array of User-Defined TYPE from QB to MASM 5.x
+Q44410 QB.EXE "Not Watchable" Error in SUB for SHARED Watch Variable
+Q44412 Color and Monochrome Attributes in SCREEN 0 (Text) Explained
+Q44489 QB.EXE /NOHI Option Uses Color Instead of High-Intensity White
+Q44490 Current Statement Color Defaults to Green on Blue with /NOHI
+Q44491 UNCONF:Tandy 4000 Invalid Configuration After "Disk Not Ready"
+Q44492 Mandelbrot Example Needs to Change "LogicY" to a SINGLE
+Q44493 Arrays Declared Twice in COMMON, Do Not Give Error in QB.EXE
+Q44494 QuickBasic 4.50 Arrays Can Have 60 Elements, Not Just 8
+Q44495 DIALOG Status is Not Reset in Interpreter When Program Ends
+Q44758 FIX: "Type Mismatch" on Compile When SUBprogram Has >25 Params
+Q44761 ALT+File+Print After CTRL+BREAK May Hang Using DTK ROM BIOS
+Q44795 CLEAR Causes "Illegal Function Call" after RETURN <linelabel>
+Q44796 SYSTEM() Function Returns Macintosh Information
+Q44797 "Error Loading - Invalid Format," MOUSE.LIB in Quick Library
+Q44799 INSTR() Function Performs ASCII Compare and Is Case Sensitive
+Q45051 Set Paths Menu in QB 4.50 Finds $INCLUDE and Library Files
+Q45053 BUG: Zero Frequency Still Plays SOUND in Macintosh QuickBasic
+Q45055 Bad Random GET Record Order with TYPE's Element as Next Record
+Q45056 ChangeCursor Changes Macintosh Mouse Cursor to Wristwatch
+Q45058 Explanation of Top% in ToolBoxSampler Example for QuickBASIC
+Q45165 "Too Many Segments" LINKing More than 128 Modules
+Q45166 Floating Point Formats Used by Microsoft BASIC Products
+Q45167 Version Histories for Basic Compiler, PDS for MS-DOS and OS/2
+Q45168 Finding Address of Run-Time Error Line Using .LST or LINK /LI
+Q45169 PCOPY Causes Screen Snow on Some CGA Video Cards
+Q45170 Using CALL INTERRUPT to Return DOS Version Number
+Q45171 How to Detect Keypress in Basic without Reading in Character
+Q45172 No BUTTON Text Using BACKPAT and TEXTMODE 3 on Macintosh II
+Q45173 QuickBASIC AllocTempDesc Gets Descriptor of Last String Used
+Q45174 ToolBox ForeColor "TYPE MISMATCH" Using COL% Instead of COL&
+Q45175 How to Eject a Disk in Only One Drive in Macintosh QuickBASIC
+Q45176 QB 4.50 On-Line Help Correction for UBOUND Statement
+Q45419 BUG: CSRLIN Can Return Incorrect Value for TEXTSIZE <> 12
+Q45421 Garbage Assigning VAL or Single Precision to Double Precision
+Q45422 Region (Rgn) Routines Not Supported on Apple LaserWriter
+Q45423 Basic's CALL INTERRUPT Can Get/Set File Attributes in MS-DOS
+Q45424 SCREEN 9; 16 Foreground and Background Colors Simultaneously
+Q45425 How to Use DisposePtr Toolbox to Release NewPtr Memory Block
+Q45426 How to Allocate a Block of Heap Using NewPtr Toolbox Routine
+Q45443 PAINT Fills Entire Screen If Border Color Is Not the Same
+Q45444 Macintosh QuickBASIC Example for PicComment Is Incomplete
+Q45451 CLEAR Resets ON ERROR GOTO and Turns Off Error Trapping
+Q45477 PRINT, LOCATE, then PRINT Misaligned If TEXTSIZE Changed
+Q45478 DiffRgn (Region) Example for Macintosh QuickBASIC and BASIC
+Q45479 TEXTWIDTH "Type Mismatch" Interpreted but Not When Compiled
+Q45480 How to Draw Border Around BUTTON in QuickBASIC for Macintosh
+Q45482 DrawPicture,,corner%(0) Correction for QuickBASIC Page 479
+Q45483 Incorrect Number of Parameters to Quick Library Can Hang QB
+Q45484 File and File Creator Type Can Be Set within Lightspeed C
+Q45485 BUG: MOUSE(0) Doesn't Reset in Reopened WINDOW If Compiled
+Q45486 Can't Use Printer Port for Serial COM Input in QuickBASIC
+Q45501 Completed QuickBasic 4.50 QCARDS.BAS Tutorial Is Available
+Q45514 4.50 Manual Has Misleading Note for Calling FUNCTION Procedure
+Q45520 Complete QuickBasic 4.50 QCARDS.BAS Tutorial Program
+Q45545 QB Debugger Step Problem with Breakpoint in Watched FUNCTION
+Q45686 How to Round Up a Fraction to Its Integral Ceiling in BASIC
+Q45687 "Out of String Space" Concatenating Variable-Length String
+Q45688 BC.EXE 4.50 "Internal Error Near 361F" Passing Integers to SUB
+Q45689 Communications OPEN "COM1:" Also Supports Random Access
+Q45691 Compiled PICTURE ON Statement Renders WINDOW Border Invisible
+Q45699 Complete Instructions to BLOAD and BSAVE EGA and VGA Screens
+Q45837 QB 4.50 Help Incorrectly Displays Context Strings As Titles
+Q45850 LONG: Memory Management in QuickBasic & Basic Compiler
+Q45891 QuickBasic Can Corrupt COMSPEC under PC-DOS 3.30, Maybe Hang
+Q45892 CALL BYVAL "Parameter Type Mismatch" After DECLARE AS ANY
+Q45893 BUG: List Window May Not Update Correctly When Using Bookmark
+Q45894 EDIT$ Returns "Invalid Function Call" in Nonactive Window
+Q45895 QuickBasic 4.50 Conflict with Tornado Notes TSR Software
+Q45896 Variable Names Starting with "FN" Give "Syntax Error"
+Q45897 How to Make QuickBasic 4.50 Recognize Custom Help Files
+Q45899 CHAIN MERGE Can Repeatedly Append Second Program to First
+Q45906 No Extended ASCII in SCREEN 4 on Olivetti/AT&T 6300
+Q45907 QuickBasic's Hierarchy of Operations
+Q45908 QuickBasic Cannot RUN or CHAIN to Batch Files; Use SHELL
+Q45909 Example of How to Use 1- and 2-Byte Return Codes from INKEY$
+Q45910 Correction for StuffHex, ToolBox Trap Example on Page 523
+Q45947 FIX: x MOD 65536& Gives System Error ID=2 in Interpreter
+Q45948 Failure to Trap Event Compiled BC /w; Needs Line Label or /v
+Q45949 GET INFO Version Number Data Can Be Changed Using ResEdit
+Q45950 Definition of a Macintosh "Pure Code" Resource
+Q46030 BUG: QuickBasic Can't Print Lightspeed C's SANE Floating-Point
+Q46069 Function to Round Floating Point to Specified Decimal Places
+Q46180 STATIC FUNCTION Fails to Retain Value Between Invocations
+Q46182 Other Event Incorrectly Triggers CALL SETUEVENT/ON UEVENT Trap
+Q46183 Search/Change "Match Not Found" If Previous Search/Label
+Q46373 "Text editor" Index Entry Doesn't Belong in Language Reference
+Q46374 "DIM SHARED" Not Allowed in SUB; "DIM" and "SHARED" Are OK
+Q46376 How to Pipe ( | ) Input into a QuickBasic Program
+Q46377 No "Go To..." Item in Search Menu in Macintosh QuickBASIC
+Q46720 VARPTR(#filenumber) Not Supported in QB 4.x or BC 6.00, 7.00
+Q46815 Sending Control Codes to ImageWriter I, II, LQ from QuickBASIC
+Q46816 BC.EXE "Cannot Generate Listing for Basic Binary Source Files"
+Q46817 Getting High-Intensity Background Color in SCREEN 0
+Q46847 INKEY$ Example to Work Around ON KEY GOSUB Suspended by INPUT
+Q46848 TAB Function Documentation Error in QuickBasic 4.50 Manual
+Q46849 During INPUT, CTRL+T Displays Softkeys on Line 25
+Q46850 Increasing the Efficiency of QuickBasic 4.50's QuickSort Demo
+Q46851 Calling C Function That Uses getenv() Doesn't Work
+Q46878 Loading File with DOS Device Name (CON) Can Hang QuickBasic
+Q46880 Suppressing STOP Statement's "Hit Any Key to Return" Message
+Q46980 CALL INTERRUPT Example to Get Disk Drive Capacity, Free Space
+Q47059 FIX: Can't Nest SELECT CASE After CASE ELSE in Mac QuickBasic
+Q47061 Font Table Correction for QuickBASIC: Helvetica=21, Courier=22
+Q47121 QuickBASIC Page 375 "rograms" Should Say "programs"
+Q47122 Example of Passing a Variable-Length String to Assembly
+Q47123 Table 7.1 Reference Should Be 2.1 on QuickBASIC Page 126
+Q47124 Array in SUB Statement Doesn't Need Dimensions in Parentheses
+Q47346 IBM PS/2 Video Problems with QuickBasic 4.50 Under DOS 4.00
+Q47347 The Number of SUBprograms Per Module Affects .EXE Size
+Q47348 Example of Passing Fixed-Length Strings from C to Basic
+Q47352 Double-Clicking Text File Runs Program of Chosen Creator Code
+Q47490 Displaying Inverse Video Text in SCREEN 2 or Hercules SCREEN 3
+Q47491 How SUB and FUNCTION Windows Inherit DEFtype in QB.EXE Editor
+Q47510 Watch Value and Watchpoint Ignored During Event or ERROR Trap
+Q47511 QuickBasic Must Be Main Program in Mixed-Language Calling
+Q47563 CTRL+A and CTRL+B Bytes Stripped from String Constants in .EXE
+Q47564 "Invalid Function Call" BitTst Toolbox Example Error, Page 507
+Q47565 Using Named COMMON /SYMBOL/ May Cause "String Space Corrupt"
+Q47566 SHARED Dynamic Array Element Passed as Parameter Aliases to 0
+Q47567 BUG: LCOPY Prints Mouse Cursor after HIDECURSOR
+Q47643 Improper IF Statement Syntax Can Hang QB.EXE 4.00 Environment
+Q47662 BUG: FILES$(1) Fails in Interpreter on Mac II, IIcx, SE/30
+Q47751 BUG: AlertMover's Alert->New File Option Doesn't Make New File
+Q47752 FIX: QuickBasic CopyFile Routine May Return Bad Error Code
+Q47753 List of Run-Time Error Numbers and Messages for QuickBasic
+Q47754 Can't Trap "String Input When a Numeric Value Is Expected"
+Q47756 Example of C Function Returning a String to Basic
+Q47757 QuickBASIC for Macintosh Not Supported under the Switcher
+Q47758 SETMEM(0) Returns Total Heap, FRE(-1) Returns Available Heap
+Q47782 How to Create Pop-Up Menus in Macintosh QuickBASIC
+Q47891 "SYNTAX ERROR" Correction for QuickBASIC PrintScreen Example
+Q47970 Common MBLC Toolbox Programming Errors in Macintosh QuickBASIC
+Q47971 How to Read "LPT1:PROMPT" Dialog Record, Macintosh QuickBASIC
+Q47986 Foreign Alphabets, OPTION Key, Extended ASCII on Macintosh
+Q48013 How to Center the Printing of Any Font in QuickBASIC
+Q48056 L2029: "Unresolved Externals"; FORTRAN Variable Name Limit
+Q48057 Adding ToolBox Type Checking to QuickBASIC's MBTS Resource
+Q48058 Graphics Algorithm Different in QuickBasic Versus GW-Basic
+Q48059 "String Space Corrupt" if BSAVE Variable-Length-String Array
+Q48205 Example of Basic Function Returning a String to C
+Q48206 Example of C Functions Returning Numeric Types to Basic
+Q48207 Example of Passing Strings from C to Basic
+Q48208 Example Passing char from C to Basic
+Q48398 Using RUN with No Argument Inside SUB Should Cause Error
+Q48399 Why QuickBasic Is Incompatible with Many TSR Programs
+Q48400 Using Basic to Perform Serial Communications in MS OS/2
+Q48401 Multi-DIMensioned Arrays Are in Column Order; BC /R Row Order
+Q48479 Correction for Basic Calling POWER2, "Mixed-Language": Page 81
+Q48669 QB 4.50 .EXE Program Might Print DYNAMIC Arrays Incorrectly
+Q48725 "Illegal Number" Using -2147483648& in Long Integer Notation
+Q48726 Macintosh BASIC MS Press Book References No Longer Published
+Q48727 PRB: ScrollText & Improper RETURN from ON Event GOSUB Can Bomb
+Q48988 How to Write OS/2 Presentation Manager Programs in Basic
+Q49129 BUG: QuickBasic WINDOW Type 2 Disable Switching w/ MultiFinder
+Q49130 "SELECT Without END SELECT" Flagged in Wrong Place by QB 4.00
+Q49210 "Subscript Out of Range" Using ERASEd Array in a SUB
+Q49211 BUG: When Compiled, LINE INPUT Fails/Hangs w/ 341 Iterations
+Q49258 No Watch in Debug Menu of QBI.EXE Interpreter Academic Edition
+Q49382 Example of Passing Basic String Descriptor to MASM (Far)
+Q49383 Example Passing Numerics from Basic to MASM by Near Reference
+Q49384 Example of Passing Basic String Descriptor to MASM (Near)
+Q49385 Example Passing Numerics from Basic to MASM by Far Reference
+Q49386 Example of Passing Array of Long Integers from Basic to MASM
+Q49387 Example of Passing Array of Singles from Basic to MASM
+Q49388 Example of Passing Fixed-Length String Between Basic and MASM
+Q49389 Example Passing Fixed-Length String from Basic to MASM (Far)
+Q49390 Example of Passing Numerics from MASM to Basic
+Q49391 Example of Passing Array of Basic String Descriptors to MASM
+Q49392 Example of Passing User-Defined Type from Basic to MASM (Far)
+Q49393 Example of Passing User-Defined Type from Basic to MASM (Near)
+Q49394 Example of Passing User-Defined Type from MASM to Basic
+Q49395 Example of Passing Numerics from Basic to MASM by Value
+Q49396 Example of Passing Variable-Length String from Basic to MASM
+Q49397 Example of Passing a String Descriptor from MASM to Basic
+Q49398 Example of Passing Basic Two-Dimensional Integer Array to MASM
+Q49399 Example Allocating Memory in MASM Released by Basic's SETMEM
+Q49400 Example of Passing Two-Dimensional Fixed-String Array to MASM
+Q49401 Example of Passing Array of Doubles from Basic to MASM
+Q49709 VAL Function Concatenates Digits That Have Embedded Spaces
+Q49710 INKEY$ Can't Distinguish F1-F15 on Macintosh Extended Keyboard
+Q49711 SUB Not Defined; Change CALL MOUSE to MOUSES in MS Press Book
+Q49753 LocalToGlobal/GlobalToLocal Convert Window/Screen Coordinates
+Q49888 How QuickBASIC Can Use the 38 Patterns in System PAT# Resource
+Q49889 PUTing a CONST to RANDOM/BINARY File Hangs QB.EXE 4.5 Editor
+Q49891 BUG: Bad Values Returned in Compiled Decimal QuickBasic
+Q49925 CHAIN or RUN from Quick Library Can Hang QuickBasic Editor
+Q50000 How to Save and Restore the VGA Palette Registers in Basic
+Q50001 The Width of Text Is Carried between Basic SCREENs If Possible
+Q50003 Bits Per Pixel Per Plane for Graphics GET for SCREEN 3 and 4
+Q50004 Example of Saving Numeric Array to Disk Using BLOAD and BSAVE
+Q50062 How to Pass Parameters Between Basic and C (Part 1 of 2)
+Q50219 Reasons for "File Not Found" Error Using $INCLUDE Metacommand
+Q50220 QB.EXE 4.50 "String Space Corrupt" Passing Function to .QLB
+Q50221 How to Resize and Turn On/Off the Text Mode (SCREEN 0) Cursor
+Q50225 How to Convert VGA Colors to Their Equivalent Gray Scale
+Q50228 How to Use CALL INTERRUPTX to Get Name of Current Directory
+Q50229 Basic Can't Use Microsoft Windows SDK to Make Applications
+Q50307 Microsoft Can't Update Apple ResEdit for Macintosh Customers
+Q50461 COLOR Statement in SCREEN 11 Gives "Illegal Function Call"
+Q50466 QB.EXE 4.50 May Lose SUB During SUB Move If "Out of Memory"
+Q50468 Example of Finding a File's Type in Macintosh QuickBASIC
+Q50469 FIX: CopyFile Changes File Type to "TEXT" in Mac QuickBasic
+Q50470 .BAS in Set Paths for Include Files in QB 4.50 Options Menu
+Q50552 QB.EXE Hangs If BACKSPACE after IF GOTO Syntax (with No THEN)
+Q50637 PRINT # to "CONS:" and PRINT Can Use > for DOS Redirection
+Q50638 "Subscript Out Of Range" If REDIM Long Integer Array in SUB
+Q50735 Linking QuickBasic 4.50 with QuickC 2.00, 2.01 Font Library
+Q50736 How to Enter Extended ASCII Characters in QB.EXE Using ALT Key
+Q50806 PICTURE ON Does Not Capture Picture after WINDOW Change
+Q50807 How to Make Text Gray with PENPAT in Macintosh QuickBASIC
+Q50896 If WIDTH 80,60 in SCREEN 12, then PALETTE Can Give Wrong Color
+Q50943 Using CALL INTERRUPT to Get Current SCREEN Video Mode
+Q50944 Using CALL INTERRUPT to Push Characters into Keyboard Buffer
+Q50945 How to Get Blinking Text in Basic SCREEN Modes 7, 8, 9, 12, 13
+Q50946 Can't Directly Delete a Record from a Basic Random Access File
+Q50947 How to Get Extended Error in QuickBasic Like EXTERR in GWBasic
+Q51074 May Be LINK Error If Separate Source Files Have Same Root Name
+Q51075 QB 4.x Editor Does Not Flag VARPTR$ Error, but BC.EXE Does
+Q51076 PE Option in OPEN COM Statement Enables Parity Checking
+Q51077 "Argument Count Mismatch" If CALL ABSOLUTE DECLARE Not Changed
+Q51322 Basic INPUT and LINE INPUT Always Turn on Cursor during Input
+Q51411 How to Use SEG Keyword with Arrays in DECLARE and CALLs
+Q51412 How BASIC's Graphics GET Statement Stores Graphics in an Array
+Q51414 Internal Format of CURRENCY Data Type in Basic products
+Q51415 PDS 7.00 Alert FUNCTION Return Value Description Incorrect
+Q51416 How to Use Link Overlays in Basic PDS Versions 7.0 and 7.1
+Q51417 CURRENCY Data Type Not Available in Alternate Math (BC /FPa)
+Q51500 How to Pass Parameters Between Basic and Assembly Language
+Q51501 "How to Pass Parameters Between Basic and Assembly" (Part 1/2)
+Q51593 ResEdit Can't Change Some System Fonts; Macintosh QuickBASIC
+Q51597 In .EXE, PAINT Used in a SUB Can Corrupt Passed Variables
+Q51604 SCREEN Function Doesn't Give Color Attribute in Graphics Mode
+Q51605 Example of Gaussian Elimination; Matrix Math in Basic 7.0/7.1
+Q51658 How to PEEK Status of COMMAND, SHIFT, CAPS LOCK, OPTION Keys
+Q51731 How to List All STR# Resources as GetIndString & GetString Do
+Q51732 How to List All the Resource Types and IDs in Any File
+Q51858 Complete Listing of SCREEN Modes for Compiled Basic
+Q51859 How to Print Images on SCREENs 7 Through 12 to Epson Printer
+Q51860 How to Print VGA SCREEN 13 Image to Epson Printer
+Q51861 EXD Should Be EXP, Basic 7.00 Page 541 "Programmer's Guide"
+Q51863 Failure to Flag ELSEIF THEN <Statement> as Syntax Error
+Q51886 How to Print Hercules Graphics SCREEN 3 to an Epson Printer
+Q52048 Can't Increase Stack in Interpreter (Macintosh QuickBASIC)
+Q52068 Example of Using NPV and IRR Financial Functions in Basic
+Q52069 MatSEqn FUNCTION Correction Page 506, 7.00 Language Reference
+Q52070 Example of PPMT and PMT Financial Functions in Basic
+Q52098 Correction to LINE Statement Example in Macintosh QuickBASIC
+Q52170 Bad LINE Drawn Using Coordinates Far Outside WINDOW Viewport
+Q57342 Light Pens Tested with Microsoft Basic
+Q57343 SCREEN Statement Correction for SCREEN 3 and 4 in PDS 7.00
+Q57344 "Subscript out of Range in Quick Library Module: WINDOW" Error
+Q57345 Transferring Files Between Macintosh and MS-DOS Computers
+Q57347 Passing Long Integers Between QuickBASIC and MPW Pascal 3.00
+Q57348 Passing Single Precision Between QuickBASIC and MPW Pascal
+Q57349 Passing Double Precision Data Between QuickBASIC & MPW Pascal
+Q57350 Passing Integers Between QuickBASIC and MPW Pascal 3.00
+Q57354 How to Print Basic Video Screens to Epson Printers
+Q57357 Missing Dollar Sign on a Call to Assembly Routine
+Q57358 Incorrect Declaration of Far Procedure in Assembly; Basic 7.10
+Q57359 Use "proc uses", Not "procuses" in MASM Example; Basic 7.10
+Q57362 Variable Length String Passed from Basic to C
+Q57363 How to Pass a Variable Length String from Basic to MASM
+Q57364 Corrections to Pages 494-495 "Basic 7.0: Programmer's Guide"
+Q57365 "Subprogram Not Defined" GetCopyBox, AttrBox Using GENERAL.BAS
+Q57366 DateSerial# Accepts Values Outside Range for Arguments
+Q57368 Explanation of Critical Error Codes Returned by ERDEV
+Q57372 BUG: SerialPrinter Driver from Word 3.x Causes System Error
+Q57373 BUG: Cursor from INPUT Statement Incorrectly Displayed
+Q57374 BUG: Boolean Expression Using VAL Function Returns Wrong Value
+Q57375 How to Create a Folder Using HFSDispatch in Mac QuickBASIC
+Q57376 FIX: Passing PEEKL to a SUBprogram Returns "Type Mismatch"
+Q57378 BUG: Error Generated Using a Boolean Expression in Array Index
+Q57380 FIX: SHIFT+Click to Select Text in 100K File May Fail
+Q57381 How to Use CopyBits ToolBox Call in Macintosh QuickBASIC
+Q57385 INT86OLD & INT86XOLD Not in QB 4.50 or Basic 7.00 Help, Manual
+Q57441 Macintosh QuickBASIC ToolBox Call to Trap Any Key Press
+Q57502 LoadFont Function Example Documentation Error in Basic 7.0/7.1
+Q57504 Documentation Errors in Basic 7.00 Presentation Graphics
+Q57514 "Invalid Function Call" Using EDIT FIELD <= 15 Pixels Wide
+Q57579 Why Basic 7.00 and 7.10 Don't Support Multiuser ISAM
+Q57582 Why QB 4.50 Language Reference Manual Is Sold Separately
+Q57601 Using TAB to Move Whole Blocks of Text in QB.EXE or QBX.EXE
+Q57649 CIRCLE Statement Draws Ellipses Based on Horizontal Resolution
+Q57670 LOCATE Doesn't Turn Off Cursor After INTERRUPT Loads User Font
+Q57710 BUG: Math w/ Long-Integer Constants Gives Bad Answer Compiled
+Q57711 QB/QBX "Out of Stack Space" Using Large TYPE as SUB Parameter
+Q57747 Correction to Online Help Message for Error 70 in QB.EXE 4.50
+Q57776 PLAY and SOUND Click Speaker in QuickBasic; OUT Clicks Less
+Q57778 How to Make COMMAND+Key Alternatives to MENUs in BASIC
+Q57779 Modifying File and Edit Menus in Compiled QuickBASIC Programs
+Q57797 Problems Using Basic 7.0/7.1 with Novell NetWare, DCA 10-Net
+Q57851 CALL INTERRUPT for Small Time Increments Using BIOS Tick Count
+Q57852 LINK /PAC Switch in 6.00/6.00b Is Now /PACKC in Basic PDS 7.00
+Q57853 Basic 7.0/7.1 WindowDo Does Not Trap Click in Current Window
+Q57882 BUILDRTM.EXE Requires Basic 7.1 Component Libraries; SETUP
+Q57883 UI Toolbox Menu Bar with Menu Past 64th Column Shows Garbage
+Q57884 Why Basic 7.0/7.1 UI Toolbox ListBox Might Ignore Arrow Keys
+Q57885 Disabled First Menu Malfunctions in Basic 7.00 UI Toolbox
+Q57923 QuickC 2.0 Routines Using malloc() Fail in QB Quick Library
+Q57925 Array Elements Are Passed in Temporary Variables for BC /D
+Q57926 "Subscript out of Range" Long-Integer Array in IF/THEN in 4.50
+Q57928 Named COMMON SHARED /block/ Can Be Continued onto Next Line
+Q57930 BREAK Status Always Reports OFF Using Basic CALL INTERRUPT
+Q57931 EXE Does Nothing If BC.EXE Compiled from GW-Basic Binary Code
+Q58020 Cannot Search on Blank String Field in VB for MS-DOS ISAM
+Q58023 Multidimensional Limit for Undeclared (Non-DIMmed) Arrays
+Q58025 DRAW Statement's Scale (S) Command Has Default Scale Factor 4
+Q58026 No QB Error Message If File Listed in .MAK File Does Not Exist
+Q58027 Basic PDS 7.10 Allows Line Numbers 40 Digits Long; Correction
+Q58035 Alternate Math (BC /FPa) Won't Always Produce Smaller .EXE's
+Q58036 BUG: QuickBasic's AddStrings.C Incorrect for MPW C Vers 3.00
+Q58037 Can't READ DATA Statements Across Basic Modules
+Q58038 BUG: Correction for Rtrim and Ltrim QuickBasic Utilities
+Q58042 QCARDS Demo Program Incorrectly Searches for Zip Code
+Q58043 PLAY "Illegal Function Call" for "B+","C-","E+", and "F-"
+Q58102 No Beep When Clicking Outside Modal Window of WINDOW.BAS
+Q58103 How to Convert Unsigned Integer from Another Language to Basic
+Q58105 Explanation of Tiling in Basic; PAINTing with Patterns
+Q58106 Compiler Options Explained for QBX.EXE's Make EXE File Command
+Q58122 CHAIN Line-Number Option Is in BasicA, Not in QuickBasic
+Q58177 How to Open Macintosh QuickBASIC Data File with Shared Access
+Q58212 Hiding Folders & Changing Other Folder Attributes with ResEdit
+Q58213 How to Empty (Flush) the Keyboard Buffer in Basic
+Q58214 Error 53 ("File Not Found") Using FILES "filespec" Statement
+Q58410 BUILDRTM "Unresolved External" Using OVLDOS21.OBJ; Not Allowed
+Q58411 C Char Parameters Passed from Basic as 2-Byte Parameters
+Q58425 BC 6.00/7.00 Example; Multiple Processes Talking in OS/2 Queue
+Q58426 BC 6.00/7.00 Example Single Process Using OS/2 Queue API CALLs
+Q58498 No Error in QB Using Duplicate Parameter Name in DECLARE
+Q58499 "Overflow" with Integer Division and MOD Operator; Workaround
+Q58530 LONG: Answers to Common Questions About QuickBasic 4.50
+Q58547 LIM 4.0 Expanded Memory Boards/Drivers for Basic 7.0
+Q58563 7.10 Correction Passing Far Variable-String Array to MASM
+Q58564 4.50 Must Reset PALETTE After WIDTH 80,60 in SCREEN 12
+Q58567 Any EGA/VGA Video RAM Above 256K Not Usable in Compiled Basic
+Q58607 "Selected Programs" in 4.50 Online Help Have Only 1 Example
+Q58609 ON...GOSUB Example from QB 4.50 Help Gives "Label Not Defined"
+Q58640 "7.0: Programmer's Guide" Error Handling Example Correction
+Q58658 Quick Libraries in Basic Do Not Use Expanded Memory
+Q58659 Correction for ToolBox Statement Example Calling ScrollRect
+Q58660 TIMEVALUE# Function Documentation Correction in Basic 7.00
+Q58673 ButtonOpen Incorrectly Handles Button in Resizable Window
+Q58674 Correction for PaintArc, QuickBASIC ToolBox Example, Page 516
+Q58675 Correction for ColorBit ToolBox Argument on Page 508
+Q58676 MenuEvent$ Should Be MenuEvent, Page 495 Basic 7.0 Reference
+Q58677 How to Put an Icon in a Menu Item Using ToolBox Statement
+Q58732 QB 4.50 Parameter Passed to Separate Module Shows as Garbage
+Q58733 Basic 7.00 Can Assign an Array to an Array If in a TYPE
+Q58789 "Input Run-Time Module Path:" Never Found If BRUN45.EXE Typed
+Q58791 DATEVALUE# Function in Basic 7.00 Uses MM-DD-YY, Not DD-MM-YY
+Q58815 "Unresolved External" Using Wrong Linker with Basic 7.00, 7.10
+Q58816 Basic PDS 7.10 Does Not Support ILINK.EXE Incremental Linker
+Q58817 Basic 7.0/7.1 "Error Loading Run-time Module: Incompatible"
+Q58819 Microsoft Editor Cannot Use QuickBasic Extended Help Files
+Q58820 ToolBox "Type Mismatch"; Use VARPTR on Array Parameter
+Q58821 Correction for FillArc ToolBox Example on Page 511 "Reference"
+Q58822 GetFontName ToolBox Example Correction on Page 514 "Reference"
+Q58823 SetDateTime ToolBox Example Correction on Page 520 "Reference"
+Q58824 How to Use Apple Symbol in Menus; Create Custom Apple Menu
+Q58825 How Basic Can Determine VGA Palette Colors with BIOS Interrupt
+Q58922 Cannot Link PROISAM.LIB or PROISAMD.LIB into Quick Library
+Q58924 RUN Inside ON ERROR Handler Causes "Press Any Key" in EXE
+Q58926 Different Ways Arrays Can Be Stored in Basic
+Q58955 Twice-Called String FUNCTION May Fail in QB/QBX Quick Library
+Q58956 You Cannot Decompile .EXE or .OBJ Files Back to Basic Source
+Q58963 UI Toolbox Shortcut Keys Documentation Error in Basic 7.00
+Q58965 DEF SEG from POKE Help Shows DEF FN Help in 4.50 Online Help
+Q59006 How to Distinguish Between a Standard and Enhanced Keyboard
+Q59007 Displaying Multiple Text Colors at Once on SCREEN 1 in Basic
+Q59073 "Basic 7.0: Reference" Correction for CALL Statement Example
+Q59130 WHEREIS.BAS Correction in "4.5: Programming in Basic" Manual
+Q59131 How to Just Trap CTRL, ALT, or SHIFT Keys in Basic
+Q59132 How to Disable Toggle for NUM/CAPS/SCROLL LOCK with Key Trap
+Q59133 How to Trap PRINT SCREEN Key on an Extended (101-Key) Keyboard
+Q59135 Basic EGA/VGA Graphics in Protected Mode OS/2 by Calling VIO
+Q59136 Basic EGA/VGA Graphics in Protected OS/2 Using VIO (Complete)
+Q59137 FIX: Compiled QuickBasic Sys Error on Macintosh IIci IIcx IIfx
+Q59286 Example of SaveString, GetString, LoadString Library Routines
+Q59287 Example of Alert, a QuickBASIC Toolbox Library (MBLC) Routine
+Q59289 VB & Basic PDS ISAM Cannot Store Single-Precision Numbers
+Q59290 How to Read Binary Files Using BASICs Without BINARY Access
+Q59317 FRAMEPOLY and FramePgon Don't Frame Same Polygon Twice
+Q59318 Polygon Routines Don't Affect Total Area of Framed Polygon
+Q59319 BUG: Polygon ROM CALLs Top-Justify Within Their Rectangle
+Q59322 How to Use "!C/P Script" MPW Script File, Macintosh QuickBASIC
+Q59399 Basic 7.0 UEVENT Example Causes Subsequent Programs to Hang
+Q59401 Designer Quickwindows Is Alternative Graphics User Interface
+Q59402 QBX & BC /Es Option Shares Expanded Memory with Mixed Language
+Q59403 BASIC &num Constant Defaults to &Onum (Octal), Not &Hnum (Hex)
+Q59427 BC.EXE "Internal Error Near x" Using Static Long Integer Array
+Q59428 Bad EXE Result, Expression Indexing Dynamic Long Integer Array
+Q59429 QB.EXE/QBX.EXE "Identifier Too Long" Using User-Defined TYPE
+Q59430 3 Cases Where DIR$ Gives "Illegal Function Call" in Basic 7.00
+Q59431 7.10 Correction for OPEN COM Transfer & Receive Buffer; TB, RB
+Q59486 Passing Long Integers Between Macintosh QuickBASIC and MPW C
+Q59487 Passing Single-Precision Data Between QuickBASIC and MPW C
+Q59533 Passing Integers Between QuickBASIC and MPW C Version 3.00
+Q59562 INSTR, Documentation Correction for Basic PDS 7.00
+Q59722 Open and Save in QB/QBX Editor Treat Filenames as Directories
+Q59723 OS/2 DosFindFirst Code Example Correction; Missing Comma
+Q59724 List Box Width Can Be Only 14-55 Characters in 7.1 UI Toolbox
+Q59725 INTERRUPT for Clock Tick Counter Returns Negative Value
+Q59727 Legal Data Delimiters when Using INPUT #n Statement
+Q59728 QB 4.50 Learning to Use Correction; MBF Used Prior to QB 4.00
+Q59729 QB 4.5 Learning to Use Correction; Preserving COMMON in CHAIN
+Q59734 Basic 7.00 Can Write Whole Array (in TYPE) to Disk at Once
+Q59757 BUG: IF THEN SUBname Causes "Undefined Label"; Requires CALL
+Q59758 Single-Line IF...THEN Label, "Syntax Error"; Requires GOTO
+Q59761 "Permission Denied" with > 20 LOCKs with SHARE Loaded
+Q59764 BUG: WIDTH Not Reset in Mac QuickBasic Interpreter; Use 255
+Q59765 ISAMCVT.EXE Fails to Convert db/LIB File, Try Packing First
+Q59953 9th Pixel of 9x16 VGA Fonts Mimics 8th Pixel for ASCII 192-223
+Q60131 Problem with MID$ Statement and MID$ Function in QBX.EXE
+Q60132 VB & Basic PDS: ISAMREPR Always Adds 32K to a .MDB File
+Q60133 Description of How LOCATE Can Change the Cursor Size
+Q60137 WIDTH Syntax Correction; WIDTH Parameter Is Required
+Q60140 Location of Keyboard Buffer Area in MS-DOS; Basic PEEK, POKE
+Q60141 HELPMAKE ":p" Option Does Not Work Correctly
+Q60143 /FPa, /Lp, and Near Strings Disabled with Quick Library
+Q60147 CHAINing with Additional Variables in COMMON Causes Hang
+Q60220 No Space Needed in "/O MY.SRC" in HELPMAKE, Programmer's Guide
+Q60419 Passing Double Precision Data Between QuickBASIC and MPW C
+Q60420 Correction for "BASICMPWC.h" File Producing Error 261
+Q60424 "The QuickBasic Journal" Magazine Available for Basic Users
+Q60425 Unresolved External Making Quick Library from CHRTB.BAS
+Q60426 Correction to ForeColor ToolBox Example
+Q60859 Vectored Fonts Not Usable in Basic PDS 7.00
+Q60860 CommandKeySet Subprogram Should Be ShortCutKeySet
+Q60862 BUG: Probs Using Long Integers in Mac QuickBasic 1.00
+Q60963 Wrong Colors Displayed If Map Mask Register Set Incorrectly
+Q60964 NO87 Environment Variable Echoed to Screen When Run
+Q60966 QB.EXE and QBX.EXE Erase Line If You Type STRIG ON
+Q60967 Dynamic Arrays, Far Strings Overwrite COMMAND.COM
+Q60968 QBX.EXE 7.10 Expanded Memory Usage Better Than 7.00; 32K Table
+Q61332 Storage Format for MKI$, MKL$, MKS$, MKD$ Same as Variable
+Q61333 Extra Comma Listed in Description of Alert Toolbox Routine
+Q61334 BUG: Undefined Subprogram CALLing Machine Language Using Long
+Q61336 Explanation of Compiler Workspace and What Affects It
+Q61337 Basic PDS 7.00 Not Compatible with C PDS Version 6.00
+Q61338 Docerr in MenuSet and MenuSetState in UI Toolbox of PDS 7.00
+Q61339 Problem When Using IMP with a Variable and a Literal
+Q61340 Watchpoints Set at Module Level Won't Break in a SUBprogram
+Q61341 CodeView Does Not Support the Basic CHAIN Statement
+Q61342 Correction for LINK L2043 Quick Library Message in 7.00/7.10
+Q61343 ON ERROR GOTO 0 in Basic PDS Won't Give Error Line's Address
+Q61344 Why a Program Might Hang with BLOAD/BSAVE
+Q61345 Differences Between FormatX$ Functions & PRINT USING Statement
+Q61349 Basic PDS 7.00 "Program Memory Overflow" with Too Many CONST
+Q61350 Disk vs. RAM Memory of Stand-Alone vs. Run-Time in Basic PDS
+Q61404 BUG: Cannot ERASE Passed Arrays That Are DIMmed in SUBprograms
+Q61406 NOFLTIN.OBJ: Hex Numbers Not Allowed with INPUT, READ, or VAL
+Q61434 XOR, OR, AND Convert Floating Point to Integer
+Q61436 Problem of Testing Floating-Point Equality, IF n=VAL("n")
+Q61440 DIMension in a FOR-NEXT Loop Is Possible
+Q61483 "Illegal Function Call" CHAINing to Stand Alone, /Fpa, or /Fs
+Q61485 Maximum Number of ISAM Files Open at One Time in VB for MS-DOS
+Q61501 Reference to Table 10.4 in "Programming in Basic" Incorrect
+Q61657 Setting the Border Color in EGA and VGA with CALL INTERRUPT
+Q61658 WIDTH Statement Incorrectly Lists All Parameters as Optional
+Q61673 "Illegal Function Call" with TAB & LOCATE in Compiled Program
+Q61676 Expanded Memory Emulators Slow Floating-Point Operations
+Q61677 Scroll Bar Toolbox Routines for Use Only with ScrollText
+Q61678 Routine to Save and Restore a Block of Memory to a File
+Q62054 Large COMMON in Multiple Modules Uses DGROUP in QB/QBX.EXE
+Q62057 Basic Random Files Compatible with C Random (Binary) Files
+Q62202 WHEREIS.BAS Problem Under MS-DOS 4.x and 5.0
+Q62206 LINK L1083 "Cannot Open Run File" on Novell Network
+Q62208 Environment Variable Must Be Uppercase in ENVIRON$
+Q62211 "Out of String Space" Using DB/lib
+Q62213 Obtaining Current Drive Information with Microsoft Basic
+Q62215 PRB: Using FORTRAN Input/Output Statements with Basic
+Q62217 EXEHDR.EXE Switch Omissions in 7.0/7.1 Manual
+Q62266 QB.EXE/QBX.EXE Incorrectly Allows GO As a Variable
+Q62267 Problem Using SETMEM and SHELL in QuickBasic 4.50
+Q62269 Two Fixed-Length Strings 32K Long in COMMON Hang QuickBasic
+Q62270 Problem with SCREEN 0 Paging on CGA in QB.EXE & QBX.EXE
+Q62271 BUG: Mac QB Forgets Clip Region When Changing Between Windows
+Q62455 Invalid Entries in Symbol Table Using F1 in QB.EXE, QBX.EXE
+Q62458 How to Find All Available Logical Drives in Basic
+Q62459 (Complete) Stub File Description and How They May Enlarge EXE
+Q62460 ISAM INSERT with Duplicate Key Incorrectly Allocates Record
+Q62770 Must Load PROISAM or PROISAMD to Use ISAM Utilities
+Q62771 Record Number for PUT/GET Statement Can Be a Long Integer
+Q62772 OPEN New Table with PROISAM Causes "Feature Unavailable"
+Q62773 Overflow Error OPENing ISAM File with TYPE > 255 Elements
+Q62774 Using PC-DOS 3.00 and QBX.EXE Will Give SHELL Problems
+Q62812 Must Start Program to Use Set Next Statement from Debug Menu
+Q62816 Passed Parameters Incorrectly PRINTed from SUB in Library
+Q62818 REPAIR.EXE Should Be ISAMREPR.EXE in Basic 7.00 Error Guide
+Q62830 Basic 7.1 "Division by Zero" on 386 with 387, (-X)^2 or Other
+Q62832 7.00 CREATEINDEX Example Gives "No Current Record" at Run-Time
+Q62891 WAIT() Causes Execution to Continue If Any Bit Is Set
+Q62892 "Out of Stack Space" with ON ERROR, REDIM, GOSUB, then ERASE
+Q62908 Description of Stub Files and How They May Enlarge EXE
+Q62951 BUG: Can't Drag Window Across Two Monitors in Compiled Program
+Q63002 EOF(n) Returns True on Random File Until GET Is Executed
+Q63003 Basic 7.00 SETMEM Example Uses malloc/free; Should Be halloc
+Q63004 SELECT CASE Example Correction for QuickBasic 4.5 Manual
+Q63008 DEFINT A:DEFLNG B Before SUB Gives "Cannot Precede SUB" in QB
+Q63010 Cannot Display Array Pointer or Full Basic Array with CodeView
+Q63095 QB Sample Function to Convert from Floating-Point to String
+Q63160 CALL PENMODE & PENSIZE Work with CALL LINE, Not CIRCLE or LINE
+Q63161 Overlaid Modules Loaded into EM Only When 1st Overlay Called
+Q63195 When Out of Memory in QBX 7.00, Instant Watch Reruns Program
+Q63197 Using PWB with Both Basic PDS 7.10 and C PDS 6.00
+Q63198 Main Module Must Be First Basic File in Program List for PWB
+Q63268 BUILDRTM with PROISAM(D) Must Have OBJ and LIB in Export List
+Q63269 Pocket Soft's .RTLink Gives Overlay Support to Compiled Basic
+Q63270 QB & QBX Insert Default REM $STATIC Before a SUB or FUNCTION
+Q63272 Single-Line DEF FN Can Cause Program to Rerun ON ERROR
+Q63273 Editing Before First Line in Procedure Can Cause QB Problems
+Q63422 B_OVREMAP in 7.00 Programmer's Guide Should Be B_OVLREMAP
+Q63436 "Statement Label Not Allowed Between SELECT CASE" Help Hangs
+Q63621 LINE INPUT #1 Reads Up to 32,767 Characters into String
+Q63623 How to Set Up Programmer's WorkBench (PWB) for Basic PDS 7.10
+Q63659 Error L2029 "Unresolved External" Due to Wrong LIB.EXE Syntax
+Q63781 INKEY$ Fails with Various CTRL, ALT Key Combinations QB 4.00
+Q63782 "Permission Denied" If SHELL to 7.00 .EXE Using ISAM from TSR
+Q63797 In 7.00 UI Toolbox, WindowOpen Must Start at Row 3, Column 2
+Q63798 Entering QB 4.50 with Multi-Module Program Requires Full Menus
+Q63799 7.00 UI Toolbox MENU.BAS Correction, Narrow Menu Selectability
+Q63811 Illegal RESUME NEXT Hangs QBX After ON LOCAL ERROR RESUME NEXT
+Q63834 How to LINK PROISAMD.LIB to .EXE Even if SETUP "ISAM in TSR"
+Q63901 Incorrect SEEK in Example in Basic 7.00 Language Reference
+Q63956 How to Scroll Text in Basic Protected Mode Program Using API
+Q64013 Macintosh QuickBASIC 1.00a Disk Contents; Released Through PSS
+Q64099 QB 4.50 SETUP.EXE Hanging Problem on Leading Edge Model D
+Q64100 BEGINTRANS Example "Invalid Columnname" for Address
+Q64101 Description of Expanded Memory Switches for Basic PDS 7.10
+Q64102 Basic 7.0 Documentation Correction for Compiling OS/2 Programs
+Q64103 CURRENCY Variable of User-Defined TYPE Cannot Use @ Symbol
+Q64104 GetDirName Works Only for Boot Drive in Macintosh QuickBASIC
+Q64105 Example of Assembly Function Returning Long Integer to Basic
+Q64106 Sample Assembly Function Returning Single to Basic
+Q64107 Sample Assembly Function Returning Double to Basic
+Q64108 GET from COM1 or COM2 Fails to Get Correct Data -- Use INPUT$
+Q64185 PRINT USING Doesn't Work in UI Toolbox Window; Use FormatX$
+Q64210 How to Simulate Bound Executables with Basic 6.00 - 7.10
+Q64223 Complete README.DOC File for Basic PDS Version 7.10
+Q64343 Complete PACKING.LST File for Basic PDS 7.10
+Q64424 LINK "Stack Plus Data Exceed 64K"; 7.00 BC /Fs Forces /S
+Q64428 Assembly Function Returning Variable-Length String to Basic
+Q64429 Example of Assembly Function Returning Integer to Basic
+Q64430 Abrupt Branch to ON Event GOSUB Handler from Separate Handler
+Q64431 BUG: QuickBasic Interpreter Allows Duplicate Line Numbers
+Q64495 ISAMIO.EXE /I Imports ASCII Text File into Basic ISAM File
+Q64496 SETUP Builds ISAMIO, ISAMCVT, ISAMPACK as Stand Alone or Not
+Q64498 How to Define a String Array in FIELDs in a FOR...NEXT Loop
+Q64589 How to Use Named, Shared Memory Segments in OS/2 Basic Program
+Q64591 EMS40.SYS Is Valid LIM 4.0 Driver for EM Use in Basic PDS
+Q64592 "Overflow" from "&H nn" or "&O nn" with Illegal Embedded Space
+Q64785 ON KEY Key Trap with INKEY$ Loop Requires Additional Key Press
+Q64787 How to Run QuickBasic 4.5 on Dual-Floppy System (No Hard Disk)
+Q64875 C's _getvideoconfig Returns Incorrect Mode If Set from Basic
+Q64876 "Insufficient EMS to Load Overlays" at Run Time in 7.00, 7.10
+Q64877 "File Not Found ..." If Basic RUNs a C 6.00 Overlaid Program
+Q64896 "Statement Unrecognizable" Using "_" in DATA Statement
+Q64899 QBX.EXE Color Loss & Hang on VGA on Tecmar BIOS 1.02; 1.11 OK
+Q64933 How to Emulate INKEY$ Function by CALLing MS-DOS INTERRUPT
+Q64934 An Alternative If ISAMCVT Fails on IBM Basic 2.0 ISAM Database
+Q64979 ISAM Benchmark of PDS 7.10 Versus 7.00, FoxPro, and Btrieve
+Q65034 QBX.EXE "Out of Data Space" for Variable-Length String Array
+Q65082 "Error During Run-Time Initialization" Mixing Near/Far Strings
+Q65083 QBX Incorrectly Initializes Array in TYPE with OPTION BASE 1
+Q65103 OS/2 Basic Program to Get Machine Configuration; DosDevConfig
+Q65105 How to Call VioPopUp() from a Protected Mode Basic Program
+Q65177 "Out of Stack Space" Using RETURN <linenumber> for SUB Event
+Q65194 "Redo from Start" for Correct INPUT in QB and Basic PDS
+Q65195 Joystick STICK, STRIG Use BIOS Int 15 Hex, or Direct Hardware
+Q65287 Must Use BYVAL at Both Ends When CALLing 7.10 SUB or FUNCTION
+Q65291 QuickBasic 4.50 Repackaged Manual and Disks, September 1990
+Q65323 Basic Program to Read COBOL BCD (COMP-3) Numbers
+Q65396 EOF in 7.00 Returns "Nonzero" for TRUE, But 4.50 Returns -1
+Q65402 BC /R Makes UBOUND and LBOUND Incorrect for Multi-DIM Array
+Q65403 LINK Creating Temporary File Can Hang on 3Com 3+ Open Network
+Q65404 Solve Basic 6.0 "Unresolved External" with OS/2's DOSCALLS.LIB
+Q65478 7.10 Memory Lost If Reassign $DYNAMIC String Array to STRING$
+Q65480 Basic PDS 7.0, 7.1 Cannot Use IOCTL and Far Strings
+Q65503 No CHAIN with ALL, MERGE, DELETE, or Line # in Compiled Basic
+Q65504 Basic "Statements/Labels Illegal Between SELECT CASE and CASE"
+Q65506 "Invalid Column" If CREATEINDEX on Field of Nested User TYPE
+Q65515 Basic OS/2 Routines to Replace UIASM.ASM for UI ToolBox
+Q65548 PDS 7.1 Can Now Buffer COM1 or COM2 Input Data During a SHELL
+Q65549 Disappearing SUB Statement When Editing in QB.EXE/QBX.EXE
+Q65550 SHELL "CHDIR", "Input Path for Run-Time Module" if No BC /O
+Q65569 BC.EXE May Hang Using Single Quotation Marks in String CONST
+Q65584 Mismatched DEFtypes in Main and SUBs Can Zero SHARED Variables
+Q65597 Correction to DIR$ Example In "Basic 7.0: Language Reference"
+Q65598 Differences/Enhancements from Basic PDS 7.00 to 7.10
+Q65599 SELECT CASE Documentation Error in "Learn Basic Now", MS Press
+Q65749 How to BSAVE and BLOAD Multiple Screen Pages in SCREEN 0
+Q65884 How to Pass a Basic COMMON Block to a FORTRAN 5.00 Subroutine
+Q65886 TAB() Function Is Affected by Nonprinting Control Characters
+Q65923 Interrupt to Get QB/QBX Invocation Command Line; vs. COMMAND$
+Q65924 How to Get Absolute Address of String Variable in Basic
+Q65925 Using OS/2 API Calls for Keyboard Input from Basic PDS
+Q65926 How PutCopyBox Determines Window Size in 7.00/7.10 UI ToolBox
+Q65927 Using INTERRUPT 15 hex for Time Increments Less Than 1 Second
+Q65935 Explanation of Why Basic Programs Can Open Devices As Files
+Q65936 BUG: Macintosh QuickBasic Listing Window Corrupted During Edit
+Q65937 Macintosh QuickBASIC PrintVerRec Code Resource Prints Garbage
+Q65938 TOOLBOX Statement with Wrong Array Can Corrupt Listing or Hang
+Q65939 BUG: Macintosh 1000x1000 WINDOW Snaps Back to Smaller Size
+Q65940 No BasicLib.obj in Macintosh QuickBASIC, Use BasicLib.Lib
+Q65941 BUG: Divide by Zero Hangs on SE/30 If Compiled w/ 68881 Option
+Q65942 BUG: Zero to Zero Power Returns Bad Result If Compiled w/68881
+Q66139 ISAMIO /E Cannot Extract Aggregate Types from ISAM Database
+Q66140 How to Change User Interface Global CONSTants in GENERAL.BI
+Q66164 Versions of Utilities (LINK, LIB, Etc.) Shipped with Basic
+Q66228 Correction to QuickBASIC AllocString Function Prototype
+Q66359 PICEM Views .PCX, .PIC, .GIF Files and Saves in BSAVE Format
+Q66424 LSET Can Assign One TYPE Variable to a Different TYPE
+Q66428 How to Link Basic 7.1 with C 5.1, FORTRAN 5.0, and Pascal 4.0
+Q66455 Problems May Occur When Passing the Same Array Element Twice
+Q66560 "Illegal Function Call" Using Coprocessor in Basic 7.10
+Q66591 ALT+240 Hangs QBX.EXE/QB.EXE with Phoenix BIOS
+Q66690 ALERT Function in Basic 7.10 UI Toolbox Destroys TEXT$
+Q66691 No "Block IF Without END IF" Using IF...THEN REM in QB/QBX.EXE
+Q66692 Basic PDS User Interface (UI) Toolbox Modified for OS/2
+Q66743 GAMESHOP.EXE "Error 05" Using SET COMSPEC=COMMAND.COM /E:n
+Q66744 How to POKE Keystrokes Such as F3 (Last Command) into Keyboard
+Q66771 How to Re-create Basic Help Files Using HELPMAKE.EXE
+Q67107 Far FIELD Variable Assigned to Itself Doesn't UnFIELD in PDS
+Q67134 "Basic 7.10 Quick INSTALL.EXE" Works Around SETUP.EXE Problems
+Q67147 Basic Files Limited to 32 MB Without DOS 4.00/4.01 Patch
+Q67205 DRAW Statement to Erase or Redraw Image May Not Work Correctly
+Q67206 OS/2 "Path/File Access Error" Instead of "Permission Denied"
+Q67312 Keywords Limited to 9 Characters When Adding to QB 4.50 Help
+Q67313 "Bad Record Number" Using Network Printer in OS/2, LANMAN 2.00
+Q67314 BC.EXE "Out of Memory" with Numeric Array Elements and SWAP
+Q67315 How to Use CALL INTERRUPT to Diagnose COM "Device I/O" Error
+Q67362 BUG: Basic Print Listing Drops Wrapped Chars on HP DeskWriter
+Q67363 In QBX 7.10, F8 Step then Editing Active Statement Can Fail
+Q67364 QBX.EXE "EMS Corrupt" Using Expanded Memory in Windows 3.00
+Q67373 CLEAR Can Cause "Subscript out of Range" with $DYNAMIC Array
+Q67374 BUG: CIRCLE(x,y),rad,,-0.1,0 Draws Only the Radius in Basic
+Q67377 Macintosh QuickBASIC Converts "CLIP:" Clipboard Tabs to Commas
+Q67378 OPEN SCRN: or CONS: Wrong Output in QBX.EXE When Step (F8)
+Q67379 How to Use CALL INTERRUPT to Detect If SHARE.EXE Is Loaded
+Q67449 "Basic 7.0: Programmer's Guide" Correction for ISAMCVT.EXE
+Q67589 Use hmamin Not tsrmin on Page 86 "Basic 7.1: Getting Started"
+Q67697 UI Toolbox: "Subscript Out of Range" or Hang on WindowDo Call
+Q67886 VAL() Fails When Basic 7.10 NOFLTIN.OBJ Stub File Is Linked
+Q67887 "Illegal Function Call," Negative Number to Fractional Power
+Q68021 LOCK May Fail to Properly Return Error After CHAIN Under OS/2
+Q68023 BC "Internal Error" with Array of TYPE Using Array of STRING*1
+Q68024 BC.EXE "AS Missing" in TYPE Using Space Between Array and ()
+Q68026 Unexpected Results Using DOS TYPE to Display RANDOM File
+Q68027 QBX.EXE, PWB.EXE Help Files "Not Found," Conflict Under OS/2
+Q68121 Checking Game Port with CALL INTERRUPT If STICK & STRIG Fail
+Q68122 BASIC Can Write Files for MS Excel Spreadsheet
+Q68123 7.10 "Subscript Out of Range," WindowDo with No Open Windows
+Q68157 Gama Fax TSR Program Conflicts with Basic Keyboard Input
+Q68158 Basic 7.10 LINK "L4051 Cannot Find Library" If Using 7.00 .LIB
+Q68159 How to Truncate a File Using MS-DOS Interrupts from Basic
+Q68164 CLOSE Doesn't Release Far Heap Used by First OPEN "COM" Buffer
+Q68186 Run-Time Fixup Facts; Pointer to STRINGASSIGN Hangs If No /O
+Q68224 Basic Program to Reboot or "Cold" Reboot the Machine
+Q68225 StringAssign of Zero-Length (Null) String Fails; Basic 7.10
+Q68236 Can't Use LINK Overlays in a Basic OS/2 Dual-Mode Application
+Q68339 ISAM Files Cannot Be Opened by Multiple Networked Workstations
+Q68446 WIDTH "CONS:" or "SCRN:" Uses Only 40 or 80 in Basic 7.00/7.10
+Q68462 ISAM Files Open at Once, "Too Many Files" Error 67, Correction
+Q68588 OutGText% Works Only on First Call If WINDOW Invoked; UI Font
+Q68589 How to Display Mouse Pointer on Multiple Pages, in UI Toolbox
+Q68590 "Symbol Defined More Than Once" LINKing Basic 7.10/FORTRAN 5.0
+Q68663 Passing Basic Numeric Arrays from Basic to C and Back to Basic
+Q69043 BUG: Multiple TIMER ON Resets ON TIMER GOSUB in QuickBasic
+Q69044 Repackaged QuickBasic 4.5 Requires Two Drives
+Q69045 PRINT TAB Blanks Out Passed-Over Characters in Basic
+Q69046 Predefined Keys Trap All SHIFT Combinations; PEEK SHIFT Status
+Q69048 Amdek Keyboard Problems Selecting Text in QB.EXE/QBX.EXE
+Q69108 Instant Watch Truncates Display of String After Null Byte
+Q69109 "Illegal Function Call" Selecting Menu Item Using UI Toolbox
+Q69110 QB 4.x Program Example to Create or Remove Directory
+Q69111 Correction for Scroll SUB in GENERAL.BAS, UI Toolbox
+Q69112 How to Estimate Size of Basic ISAM Database Components
+Q69113 BUG: QuickBasic Can't Find: File Dialog Fails on System 6.0.7
+Q69156 Underscore+CR+LF Added Before DATA Statement If > 250 Columns
+Q69157 Bad Values When QLB Function Used as SUB Parameter
+Q69158 ISAMCVT Doesn't Properly Convert db/LIB Date Fields
+Q69159 Example of How to Call Basic SetUEvent from C; ON UEVENT GOSUB
+Q69160 "Subscript Out of Range," Graphics GET with LONG Integer
+Q69161 BUG: Incomplete Edit Menu in QuickBasic 1.0b/1.0e Compiled Pgm
+Q69162 VAL Function Returns "Type Mismatch" for Some Invalid Numbers
+Q69164 BASIC Uses Radians, Not Degrees, for Trigonometric Functions
+Q69165 FIX: INT() Rounds Large Negatives Badly If Compiled in 1.00
+Q69176 How to Get a Macintosh File's Size Without Opening the File
+Q69177 Macintosh Parameter-Block Record Format (Used by HFSDispatch)
+Q69211 How to Get the Names of All Mounted Macintosh Disk Volumes
+Q69333 HOWTO: Work Around Floating-Point Accuracy/Comparison Problems
+Q69343 ISAMCVT Btrieve Specfiles Cannot Have Spaces; Must Use Commas
+Q69468 Microsoft Basic Phone Support Policies; 900 Unblocking
+Q69537 MSHERC.COM Mistakenly Loads on CGA Computer; README Addition
+Q69584 Graphics GET/PUT and SaveArray/LoadArray Example in QuickBASIC
+Q69602 How to Use a Modeless Dialog Box in Macintosh QuickBASIC
+Q69766 In .EXE, PAINT Corrupts SUB Arugument Used as Color Value
+Q69796 How to Use Named Pipes in a Basic Protected-Mode OS/2 Program
+Q69845 LPRINT with ";" Prints Nothing Until 80-Byte Buffer Is Full
+Q69846 DOS Environment Table Description; Basic's ENVIRON Statement
+Q69849 Converting Btrieve Files to Basic ISAM with ISAMCVT (Complete)
+Q69850 Example of Passing Odd-Length String in User-Defined Type to C
+Q69853 Cannot Change Basic's Cursor Position with CALL INTERRUPT
+Q69986 How to BLOAD/BSAVE Multiple Screen Pages for EGA Screens 7-10
+Q70162 Incorrect Mouse Hot Spot After SCREEN Statement in QBX.EXE
+Q70268 "Parameter Type Mismatch" Passing TYPE Array to QB 4.50 SUB
+Q70664 Must Pad Odd-Length Variables in COMMON Passed to MASM, C
+Q70666 Basic PDS Manual Correction Passing Far Strings to C
+Q71105 How to Set Hourglass MousePointer in VB Program During Delays
+Q71108 QBX.EXE Wrong Error If DIM Array of TYPE with Period in Name
+Q71109 BC.EXE "Name of Subprogram Illegal" Means Duplicate Definition
+Q71110 BSAVE Filename Fails to Default to .BAS with Far Strings
+Q71111 OS/2 PM Programs Must Use NOGRAPH.OBJ and NOEVENT.OBJ
+Q71112 How to Use MKS$, CVS with Binary Numerics in a Sequential File
+Q71234 B_ONEXIT Is Not Always Automatic in QB.EXE or QBX.EXE; Restart
+Q71235 Telling QB to Wrap (Not Truncate) Wide Lines on HP LaserJet
+Q71236 Basic ISAM Creates Two Temporary Files During Operation
+Q71237 FIX: Macintosh QuickBASIC 1.00b Tested with IIcx, IIci, IIfx
+Q71238 FIX: TRACE ON in Run Menu Indicated When You OPEN a New File
+Q71239 BUG: Incorrect Result, No "Overflow" Error, in Compiled App
+Q71240 BUG: Compiled Error 57 68020/68881 Option STRING$(32767,32)
+Q71241 FIX: "BLOCK ELSE/END IF Must Begin Line" Error Message
+Q71242 BUG: MOUSE(0) Returns -1 After MouseUp on Modal Dialog
+Q71243 BUG: Literal Parameters Not Passed to Nested Subprogram Calls
+Q71244 "Symbol Defined More Than Once" Linking Basic & C 6.0 for OS/2
+Q71259 PDS 7.1 and C 6.0 with C Cast of Float Causes Program Hang
+Q71261 7.10 ISAM "Feature Unavailable" Error in OS/2 Protected Mode
+Q71274 How to Pass Parameters Between Basic and C (Part 2 of 2)
+Q71275 "How to Pass Parameters Between Basic and Assembly" (Part 2/2)
+Q71278 No MS-DOS-Box Cursor in Windows After Running QBX.EXE or QC.EXE
+Q71306 Basic Doesn't Support Microsoft Advisor Help Library
+Q71525 QuickBasic Program to Get Current Drive Using FILES & SCREEN
+Q71567 OVLDOS21.OBJ Programs Can Also Run Under MS-DOS 3.x and 4.x
+Q71568 BUG: Bad Floating-Point Result When Using STATIC Array
+Q71765 "Unexpected End-of-File" If Wrong LINK.EXE for Custom Run-Time
+Q71779 Example of Cramer's Rule Using Basic PDS Matrix Math Toolbox
+Q71789 PAINT with Far Strings Hangs If Less Than 40K Far Memory
+Q71790 7.10 BC /D "Internal Error" Using Array in FIELD in WHILE
+Q71791 "Menu Bar Longer Than Screen!" Without MenuInit in UI Toolbox
+Q71792 "File Not Found" OPENing Filename with Leading Spaces
+Q71793 "Protection Violation" with 7.10 BC /MBF Option Under OS/2
+Q71794 Why Graphics Screen Printing Is Usually In Landscape Mode
+Q71795 Basic PDS 7.10 Call to C Routine to Open > 15 Files Fails
+Q71902 NOT EOF(1) Means "COM1:" Characters Are Waiting; TERMINAL.BAS
+Q72275 How Basic Can Get Drive Label Using Interrupt or SHELL "DIR"
+Q72318 Basic PDS ISAM Stores Blanks for Fixed-Length Strings > 255
+Q72421 Compiled /FPa, NOW# Gives Incorrect Results After First Call
+Q72422 Correction for [NEAR] Example Calling FORTRAN from Basic PDS
+Q72423 CodeView 3.14 Replaces CV.EXE 3.1 in Basic PDS 7.1
+Q72424 QBX.EXE 7.00/7.10 Online Help Correction for WINDOW Statement
+Q72539 Correction for WINDOW Statement, 7.0 Reference, Page 413
+Q72600 BC.EXE "Math Overflow" May Flag Incorrect Line of Code
+Q72672 How to Use Multidimensional Arrays with Graphics GET and PUT
+Q72678 Macintosh QuickBASIC Error Using HP "LaserJet IIP" Chooser
+Q72680 BUG: No Sound Using SOUND Statement in Compiled Pgm on Mac LC
+Q72681 "String Formula Too Complex" Using UCASE$(COMMAND$)
+Q72682 If LF+CR+LF, LINE INPUT# Fails to Treat CR+LF as End-of-Line
+Q72716 BUG: Syntax Err w/ UBOUND Causes Hang w/ R6000 Stack Overflow
+Q72718 CTRL+BREAK Does Not Abort Basic PDS's INKEY$ If No BC /D
+Q72845 "forst" "Path Not Found" Correction on Page 552, QuickBasic
+Q73041 How to Use a Hashing Function to Insert Random File Records
+Q73373 CHAIN Without Run-time Resets SCREEN Mode and PALETTE Colors
+Q73417 LINK "Cannot Open Response File" Error with "@" in Path
+Q73577 "Bad file name" Passing Command Line Parameters with RUN/CHAIN
+Q73652 BC.EXE "$metacommand error" if $INCLUDE: '<filespec>' > 40
+Q73654 Basic PDS ALIAS Example on Page 430 Can Give LINK Error L2029
+Q73695 List Box in Basic PDS UI Toolbox Shows Focus Incorrectly
+Q73696 Dialog(0) Returns a 4 After All Windows Closed in UI Toolbox
+Q73799 Calling FormatX$ Functions Without DECLARE BYVAL May Hang
+Q74346 QBX May Not Recognize Some Combined Keys on Non-U.S. Keyboards
+Q74357 Repackaged QuickBasic 3.5" Disk Setup Fails to Install QB.LIB
+Q74563 UI Toolbox Doesn't Trap PAGE UP or PAGE DOWN Key in Edit Field
+Q74675 4800 Baud Rate Omitted from Basic Manuals and Online Help
+Q74864 MKDIR Incorrectly Allows Blanks in Pathname in VB for MS-DOS
+Q75172 "Division by zero" on Coprocessor on COS, SIN, ^ Can Hang QBX
+Q75413 BUG: Subpgm Run-time "Error 35": Compiled w/ Line Length=255
+Q75517 REDIM PRESERVE Only Allows Changing Rightmost Subscript
+Q75518 Background COLOR Set in Graphics Mode Affects SHELL Background
+Q75613 In CodeView, Strings Not Watchable Beyond Null (0) Character
+Q75720 Differences in Coprocessor Error in QuickBasic 4.5 vs. 4.0
+Q76512 Out of String Space Error in SUB Caused by String Function
+Q76516 "Expected: GOSUB" Error with Basic 7.0/7.1 ON KEY Trap Example
+Q76517 UIASM.OBJ Routines Found Only in CHRTBEFR.LIB Not CHRTBEFR.QLB
+Q76554 Using F1 or Right Mouse Button Reopens QB/QBX Immediate Window
+Q76560 LOCATE and PRINT with Semicolon on Line 25 to Avoid Scrolling
+Q76665 Mismatched Fixed-length String Passed by Value Hangs QB 4.5
+Q76667 BUG: CopyFile Fails w/ System Err 3 w/ Binary Mac QB 1.0b
+Q76729 Complete Program to BLOAD/BSAVE Four Plane PICEM Images
+Q76730 Program Available to BLOAD/BSAVE Four Plane PICEM Images
+Q76740 Bad Results Using 43-Line Mode in MS-DOS 4.01 with ANSI.SYS
+Q76741 Copy with NMAKE, Correction to "Basic 7.0: Programmer's Guide"
+Q76742 COM1-COM4 May Be Accessed from Basic Through DOS Service
+Q77244 "Parameter Type Mismatch" with Variable Name Same as Parameter
+Q78002 NMAKE Correction, Basic PDS Manual, TRIG.LIB ::
+Q78072 QuickBasic Can Get Date/Time of Mac File's Last Modification
+Q78094 SCREEN Statement Syntax Correction for QuickBasic, Basic PDS
+Q78133 BUG: Cannot ERASE Arrays in SUBs DIMmed in Main Program
+Q78384 Basic .EXE >230K Linked with EXEPACK (/EX) Option May Hang
+Q78387 BUG: GetPicture "Invalid Function Call" after CHAIN
+Q78562 "Array already dimensioned" if DIM Follows First Use of Array
+Q78563 How to Trap ESC Key in QuickBasic 4.5 and Basic PDS 7.0/7.1
+Q78888 How to Save Color Registers After BSAVE of (PICEM) Graphics
+Q78890 "String Space Corrupt" with User TYPE Array > 64K in QB.EXE
+Q78891 No "Blank Lines Not Allowed" if SUB Moved to New Module in QBX
+Q78893 BC "Out of Memory" on Calculation with User Type Passed to SUB
+Q78894 QB.EXE May Hang if Array Is Named Twice in One COMMON Block
+Q78955 Basic PDS FontDemo "Bad Font File" Error Under MS-DOS 2.x
+Q78956 If DECLARE AS ANY, then Caution Since BC.EXE Won't Type-Check
+Q78960 Repackaged QuickBasic 4.5 Disk Contents (5.25- and 3.5-inch)
+Q79027 How to Suppress "Insert Diskette" on Single Floppy Systems
+Q79028 Function to Show How Much DGROUP Remains in Basic PDS 7.0/7.1
+Q79032 Basic OPEN ACCESS and File SHARE Unsupported in MS-DOS 1.x/2.x
+Q79046 Using PAINT Tiling Starting with Null Byte Can Hang Basic
+Q79118 BUG: MOUSE(0) with WINDOW OUTPUT Gives Incorrect Coordinates
+Q79149 How to Remember Current ISAM Record for Different Indexes
+Q79259 Microsoft Library (.LIB) Format, Created by LIB.EXE
+Q79371 Why MATINV Function Might Return -1 if Not Using OPTION BASE 1
+Q79372 How to Force Screen Repaint After CLS in Basic PDS UI Toolbox
+Q79374 Passing Basic PDS Variable-Length String By Far Reference to C
+Q79379 How to Update Include Files in QB.EXE/QBX.EXE Editor
+Q79674 "Illegal Function Call" Using Graphics Cursor in UI Toolbox
+Q79883 "Field Statement Active" (Error 56) on Basic PUT Statement
+Q79957 Toggling RTS Handshaking Line (Pin 4) with OUT Statement
+Q80182 "Invalid Format" QBX Quick Library Not Compiled with /D or /AH
+Q80183 "Read Error on Standard Input" in PWB.EXE and BC.EXE
+Q80184 String Space Corrupt When REDIM PRESERVE on Fixed String Array
+Q80291 CodeView 3.14 Ignores Breakpoints/Step in Overlayed Modules
+Q80405 How to Return Next Upper Integer for any Real Number in Basic
+Q80411 "Illegal Function Call" Using Asc with Uninitialized String
+Q80412 BUG: Internal Error for SWAP of TYPE Elements in SUB Using VAL
+Q80563 Strings in Named COMMON Are Stored with Module Level Strings
+Q80564 "Wrong Number of Dimensions" on DIM or COMMON with Array
+Q80824 QB.EXE /AH Hang/"String Space Corrupt" Static to Dynamic Array
+Q80848 In QB.EXE 4.5, Watchpoint Won't Break on Function Return Value
+Q81082 How to Scroll Up in Text Screen with BLOAD/BSAVE in Basic
+Q81452 IRR# May Give "Overflow" Error; Change the Guess Parameter
+Q81453 "Variable Name Not Unique" if Variable Name Same as Parameter
+Q81954 Documentation Error Causes "Unprintable Error" in QB for Mac
+Q81966 BLOAD Loses Colors and/or Shapes; SMARTDrive Outside Windows
+Q82001 "Input Past End of File" with INPUT #; Use LINE INPUT #
+Q82002 Using ENVIRON$ to Detect Whether Running Under Windows
+Q82156 Basic Can Obtain MS-DOS Disk Serial Number for Floppy Drive
+Q82873 Basic PDS 7.0/7.1, PROISAM.EXE Prevents Windows from Starting
+Q82877 How to Make a Custom Run-time Module from UI Toolbox
+Q82880 "Out of String Space" if Multiple Illegal Calls to DATEVALUE
+Q82912 "Duplicate Definition," CHAIN, Dynamic Array in COMMON
+Q83236 Loading File in Immediate Window in QB/QBX Invokes Edit Window
+Q83237 CodeView Won't Release Memory if Basic 7.1 ISAM is in Library
+Q83346 Selected Cobb Group "Inside QuickBasic" Journal Article Titles
+Q83464 Basic 7.1 "Internal Error Near 851C", DEFINT and DEF FN
+Q83551 QuickBasic 4.5 BC/W Switch Documentation Error
+Q83552 Cobb Group "Inside Microsoft Basic" Journal Article Titles
+Q83811 QB 4.x/Basic 7.x Example to List Subdirectories in Given Path
+Q83857 How an ISAM SEEK Works with Multiple Indexes in Basic PDS 7.x
+Q84062 How to Append Data to the End of an .EXE File
+Q84065 How to Right Justify a String in Basic
+Q84187 Compound IF Can Corrupt User-Defined Type Argument in SUB
+Q84384 BUG: IF Statement with POS Function Problem in Decimal QB
+Q84469 BC.EXE Command-Line Options for VB for MS-DOS and Basic PDS
+Q84482 Basic Program to Change Floppy Disk Volume Label in MS-DOS
+Q84552 QuickBasic "Launch After Compile" Option Fails on Mac System 7
+Q84557 QuickBasic for Macintosh Will Not Run with 32-bit Addressing
+Q84929 Integer "Overflow" Using SETMEM in Basic PDS and QuickBasic
+Q85154 BUG: SYSTEM(1) Function Gives Incorrect Value in 1.0e Env
+Q85265 How to Create a Near String when Using Far Strings
+Q85287 BC.EXE Gives Element Not Defined Error w/ REM $INCLUDE in TYPE
+Q85561 QBX.EXE 7.0/7.1 Online Help Correction for Now# Function
+Q85571 (LONG) Basic PDS 7.x Memory Management
+Q87772 Resolving "Subprogram Not Defined" Error with MONEY.BAS
+Q88258 Project File Trailing Character Gives "Bad File Name" Error
+Q88475 QBX.EXE 7.0/7.1 Online Help Error for FormatX Function
+Q88479 How to Compare User-Defined Type Variables in Basic PDS
+Q88663 Disabled Controls Do Not Generate Click Events on Parent
+Q88990 FastTips for Visual Basic for MS-DOS: Graphics Q&A
+Q88991 Visual Basic for MS-DOS: Memory Management Questions & Answers
+Q88992 FastTips for Visual Basic for MS-DOS: Setup Q&A
+Q89039 FastTips for Visual Basic for MS-DOS: Compiling & Linking Q&A
+Q89040 FastTips for Visual Basic for MS-DOS: Forms Q&A
+Q89043 ALT Key Required to Access VB for MS-DOS MsgBox Buttons
+Q89230 Multi-User Access Not Supported in VB for MS-DOS ISAM
+Q89231 FRE(-3) Gives "Feature Unavailable" in Compiled .EXE
+Q89232 Limiting User Input in a VB for MS-DOS Text Box
+Q89280 Must Load Custom Controls with VBDOS.EXE Before Using FD.EXE
+Q89281 VB for MS-DOS KeyUp, KeyDown Events Always Occur in Pairs
+Q89282 Cannot Deselect Controls from a Group in Form Designer
+Q89283 PRB: Parent Menu Click Event May Hang Under Certain Conditions
+Q90038 Use LINK /R to Avoid Low EMS/XMS Memory Errors
+Q90041 BUG: Out of Memory Error Continues to Appear After Choose OK
+Q90042 "Internal Error" May Be Avoided by Adding Line Number
+Q90043 Example of a "Password" Style Text Box in VB for MS-DOS
+Q90044 PRB: /SEG Option Setting Ignored in VBDOS.EXE
+Q90045 Form Size Cannot Be Larger than Current Screen Size
+Q90068 Toshiba Olivetti Clone Video Adapter Not Recognized by Basic
+Q90144 List Box Selected Item Does Not Stay Selected when Scrolling
+Q90145 PRB: Repeated Load/Unload of Control Can Cause Out of Memory
+Q90394 Click on Scroll Box May Cause Value to Change
+Q90395 PRB: All Drop-Down & List-type Boxes Have Vertical Scroll Bars
+Q90396 ERDEV$ Returns Incorrect Value Under MS-DOS 5.0
+Q90424 Controlling Graphics Text Background Color and Size
+Q90822 BUG: Contents of Directory List Box Are Not Sorted
+Q90823 Adding Menu Bar with Control of Maximum Height Clears Control
+Q90824 Minor Compatibility Issues Between VB for MS-DOS/VB for Win
+Q90825 PRB: ForeColor Changes Control's Border Color Only If 3D Off
+Q90826 "Object.Method:" May Be Read as a Line Label
+Q90827 PRB: Use of Forms Will Disable Blinking Text
+Q90893 Mac QB 1.00E: Cannot Change Options Because File Is Locked
+Q90895 Minimizing .EXE Size by Avoiding Floating Point Math
+Q90900 PRB: Parameter Type Mismatch When Don't Pass Property By Val
+Q90901 Timer Event Suspended While Menu Is Dropped Down
+Q90902 CHAIN While in Graphics Mode to Forms Program Trashes Screen
+Q90903 WIDTH Statement in Form_Load Not Set Until After Form_Load
+Q90904 Access Key in Label Before Control with No TabStop Problem
+Q90905 Click Still Occurs when Using SetFocus to Prevent Focus Change
+Q90906 Combo1.MOVE Will Hang Machine when Combo Box Is Dropped
+Q90907 Problem with FD.EXE, Project File, and Directory Name with "."
+Q90908 Screen.ActiveForm.Picture1.TEXTHEIGHT("text") May Hang Machine
+Q90960 Error on REDIM of an Array Will Erase the Array
+Q90961 SETUP.EXE on Bernoulli Hard Disk Is Not Supported
+Q90962 Can't Use ARROW on Drop-Down Menu if Separator Bar Is First
+Q90963 "File Not Found" Message when Write Lock Is on Form
+Q90964 Custom Control Interval, CurrentX, CurrentY Changes TabIndex
+Q90965 ReadOnly Properties are Linked When Custom Control Is Enabled
+Q90966 Some International Keyboard Keys Do Not Work as Hot Keys
+Q90967 Software/TSR Incompatibilities with Visual Basic for MS-DOS
+Q90968 SETUP.EXE Underestimates Required Hard Disk Space
+Q90969 BUILDRTM: Cannot Use Stub File NOTRNEM.LIB
+Q91130 README.TXT for Professional Edition of VB for MS-DOS 1.0
+Q91131 README.TXT for Standard Edition of Visual Basic for MS-DOS 1.0
+Q91133 COMPAT.TXT File for Visual Basic for MS-DOS Version 1.0
+Q92373 Conversion Problem when Keywords Used as Parameters
+Q92379 Environment Does Not See Repeat Characters in Superkey Macros
+Q92380 Form/Picture Box Background Cleared when AutoRedraw=False
+Q92381 Watch Variable on Screen.Height Can Give Wrong Value
+Q92382 KeyUp Event On Menu Item Is Being Sent To Control
+Q92457 "Syntax Error in Module Definition File"; 'segmentname'
+Q92458 Cannot Have Negative Values for Left & Top Properties
+Q92459 Wrong Makefile Loaded by FD.EXE
+Q92460 Use of VARPTR$() On Objects or Their Properties Unpredictable
+Q92629 In Low Memory Conditions, Screen Not Refreshed for Some Menus
+Q92630 Overlay Environment Variables Ignored When Using VBDTRACE
+Q92724 Output Misdirected Using PRINT # and Function with OPEN
+Q92770 Use of ON TIMER In Overlays Can Cause EXE to Exit or Hang
+Q92830 Troubleshooting QB Problems on Macintosh Quadra and Powerbook
+Q92940 BUG: Changing Caption of Menu Item Corrupts Shortcut Key Text
+Q92953 BUG: Stand-Alone Program Using Overlays & ISAM Hangs on Open
+Q93007 Formula Too Complex Error with ADDITEM Method.
+Q93008 VBDOS.EXE Environment Screen Blanks Out When Many Files Loaded
+Q93009 Text Printed Incorrectly On ATI Ultra VGA Card in SCREEN 10
+Q93010 Clipboard is Not Cleared on Run Restart with VB for MS-DOS
+Q93011 L1023 Error After Pressing Ctrl+Break While Linking a Program.
+Q93012 PRB: Probs w/ VB for MS-DOS on Apple Macintosh w/ MS-DOS Card
+Q93013 Minimizing an Invisible VB MDI Form Saves a Section for Itself
+Q93014 Program Hangs If  Letter Changes to Disconnected Network Drive
+Q93015 PRB: Invalid Screen Mode Error Occurs with PrintForm Method
+Q93016 Null Pointer May Cause  VB for MS-DOS Run-Time Error R6001
+Q93017 Scrolling Problem With Text Box When Maximized After Scrolling
+Q93027 Using LINKER Switches From Within VBDOS.EXE Environment
+Q93057 Trying to Delete Current Directory Gives Path Not Found Error
+Q93159 PRB: Trouble Tracking Location of Error When Using Overlays
+Q93229 BUG: VB Painting Problem if MsgBox Overlaps Drop-down List
+Q93659 BUG: Hercules In-Color Graphics Card Displays in Black & White
+Q93666 Some Monochrome Monitors May Have Problems Displaying Menus
+Q93669 BUG: KeyDown & KeyUp Events Receive Same Key Codes
+Q93670 Using Run on Program That Has Overlays Causes Incorrect Error
+Q93671 READ With a Control Property Hangs the VBDOS.EXE Environment
+Q93672 Using INPUT With Variable That Has Property Name Changes Code
+Q93673 IF Statement With NOT Operator Can Fail When Compiled In VB
+Q93674 Run in Procedure That Dimensions Array Hangs VB Environment
+Q93675 DOEVENTS Function Does Not Yield CPU to Other Processes
+Q93676 "Unresolved external" With DECLARE and CDECL in a VB Form
+Q93710 Running Compiled VB Program On CGA Results In Snow on Screen
+Q93924 Using CALL INTERRUPT to Retrieve Current Date In Basic
+Q94007 BUG: Basic Serial Communications Programs May Hang w/ No Error
+Q94081 BUG: Using Overlays and 85-90 Segments Causes Hang
+Q94118 How to Enable Program Compiled in Mac QB to Run In Background
+Q94160 Text Box Does Not Highlight Text When Word Double-Clicked
+Q94260 Pmt# Causes Illegal Function Call Error If No Math Coprocessor
+Q94261 Code Remains in VBDOS.EXE After Change in FD.EXE
+Q94262 Computer Hangs When Click Form Without Focus Then CTRL+BREAK
+Q94289 Mouse Cursor Disappears When Using the CodeView Debugger
+Q94315 Viewing File in QuickBasic Environment Can Change Spacing
+Q94663 Blank Screen In Monochrome Mode
+Q94664 BUG: Chain w/ Modal Form or MsgBox in Menu May Hang Computer
+Q94681 INF: Changing the Text Mode Mouse Cursor
+Q94692 Assignment in Immediate Window Causes Syntax Check In Editor
+Q94693 ALTSETUP.BAT Does Not Create NEW-VARS.BAT
+Q94694 C7 Module, Overlay, and Run-time Module Makes Computer Hang
+Q94695 Error: Executable code not allowed in module level of a form
+Q94729 Visual Basic for MS-DOS Distribution Disk Contents
+Q94730 Corrections for Errors in the Visual Basic for MS-DOS Manuals
+Q94777 Arrow Keys Don't Activate Control Box in Form Containing Menus
+Q94779 Disk not ready Error Saving File After Change to Invalid Drive
+Q94780 ISAMCVT Problems Converting BTRIEVE Files
+Q94781 Static Common Array Greater than 65510 Bytes May Hang Computer
+Q94782 Clipboard Not Cleared After Restart in Interpreter Environment
+Q94784 BUG: ALTSETUP.BAT Installs VBDOS.BAK On Pro Edition 1.44
+Q94786 File Not Found When Directory Name Contains Period
+Q94787 Unable to Move or Size Form After Executing Width Statement
+Q94788 Changing Visible or Enabled Property Can Cause Extra Change
+Q94789 Height/Width Properties of Attached Scroll Bars May Be Wrong
+Q94790 PRB: Illegal function call or Bad file w/ CHAIN and Overlays
+Q94791 Selecting a Menu Suspends All User Events
+Q94792 How to Emulate VB for Windows SendKeys Stmt in VB for MS-DOS
+Q94793 Minimum Width of Text Box is 4 Characters Even Without Border
+Q94823 PACKING.TXT for VB for MS-DOS Version 1.0 Professional Edition
+Q94824 COMPAT.TXT for Visual Basic for MS-DOS 1.0
+Q94831 Undocumented Error: Too many local strings in Sub/Function
+Q94832 Value Property May Change When You Click the Scroll Bar Thumb
+Q94833 Array Errors When Call Function in Other Module w/ No Declare
+Q94834 Scrolling List Box Causes Click Event and Change in Selection
+Q94835 No Resize Event When Maximize MDI Child
+Q94836 Cannot Distinguish CTRL+DEL and CTRL+BACKSPACE In Key Events
+Q94868 Linking with CMNDLG.LIB or SPIN.LIB Can Cause Library Error
+Q94897 PACKING.TXT for VB for MS-DOS Version 1.0 Standard Edition
+Q94937 Computer Hangs When Load Then Unload Form in Form_Load Event
+Q94938 Overflow Error When Use ISAMREPR.EXE to Repair ISAM Database
+Q95180 Getting Started with CodeView in Visual Basic for MS-DOS
+Q95181 Create Link Overlays Using Parentheses or a .DEF File
+Q95291 How to Obtain the Module Name and Address of an Error
+Q95332 FILES$(1) Function Doesn't Work Properly with System 6.0.8
+Q95363 Viewing Basic Variable-Length String Variables in CodeView
+Q95432 Cannot Profile Program Compiled in Programming Environment
+Q95433 /ES Option Is Not Valid in the Standard Edition
+Q95438 OS/2 Version 2.0 System Error SYS3175 from LINK.EXE
+Q95461 BUG: Memory Loss w/ Repeated Display of MsgBox or Modal Form
+Q95481 On Gosub or On Goto Causes Error: Variable not declared
+Q95482 QuickBasic for Macintosh: Drawing a PICT File Larger Than 32K
+Q95742 BUG: Custom Control Properties Can Lose Values At Design Time
+Q95863 Wrong Number of Dimensions in Common or Dim Statement
+Q95942 HelpSetOptions Sets Visible Property to False on Wrong Button
+Q96068 Use && to Display Ampersand Character in MsgBox Text
+Q96099 How to Drop Down a Menu on the Startup Form of an Application
+Q96538 PRB: Program Using CHAIN Hangs in OS/2 2.0
+Q96942 BUG: ISAM Statement in Quick Lib Causes Error: No Active Form
+Q98197 BUG: Forms Lose Order and Modality after SCREEN.SHOW
+Q99079 Diagnosing "String space corrupt" & "Far heap corrupt" Errors
+Q99517 PRB: Chaining from Formless App to Another App Causes Error
+Q99720 Error codes and Descriptions for Visual Basic for MS-DOS 1.0
+Q100067 PRB: No ON Event GOSUB Processing with Modal Form Showing
+Q101258 How to Compare User-Defined Type Variables w/ PEEK or _fmemcmp
+Q101439 BUG: BUILDRTM Error L2029 on B$SRUN with RUN Statement
+Q101516 PRB: Image Corrupted When Use BLOAD to Load Into Video Memory
+Q101664 BUG: VB for MS-DOS Changes Basic PDS 7.0 STRINGs to LONGs
+Q101880 How to Increase Free Near Heap to Work Around 'Out of memory'
+Q102045 FORMAT$ & Dates: Why mm/dd/yy Gives MM-DD-YY in VB for MS-DOS
+Q102633 Controlling Overlay Memory Usage in Visual Basic for MS-DOS
+Q103680 BUG: BC Defaults to /Lp in Windows NT So Use /Lr as Workaround
+Q104145 Difference Between Standard & Pro Editions of VB for MS-DOS
+Q104511 LONG: Calling C Routines from Basic -- Part 1 of 2
+Q104512 LONG: Calling C Routines from Basic -- Part 2 of 2
+Q108904 PRB: Problem Redirecting Output to Printer When Offline
+Q112045 PRB: Permission Denied When Using BLOAD to Load Open File
+Q112769 PRB: How to Break Program into Modules When Can't Create .EXE
+Q115238 How to Get and Set Diskette Media ID in VB for MS-DOS
+Q118419 BUG: Corruption of TabIndex Property of Custom Controls
+Q124759 How to Trap CTRL+UP and CTRL+DOWN Arrow Key Sequences

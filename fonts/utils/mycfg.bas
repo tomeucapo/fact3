@@ -1,0 +1,115 @@
+'
+' MYCFG.BAS
+' Llegeix tot el fitxer de configuraci¢
+'
+' Nota: Nom‚s serveix per el programador
+'
+' Tomeu Cap¢ Cap¢ 1995 (C)
+'
+
+'$INCLUDE: 'C:\FACT2\FONTS\STRUCTS.BI'
+'$INCLUDE: 'CAMPS.BI'
+
+DIM CFG AS CONFIG
+DIM EMPR AS EMPRESA
+OPEN "CONFIG.FAC" FOR RANDOM AS 1 LEN = LEN(CFG)
+OPEN "EMPRESA.FAC" FOR RANDOM AS 2 LEN = LEN(EMPR)
+
+SETMAXCAMPS 14
+FOR C = 0 TO 14: SETCOLORCAMPS C, 0, 3, 11, 0, 3, 0: NEXT
+INITCAMP 0, 4, 23, ASCI, 0, STRING$(30, "X"), "Nom:"
+INITCAMP 1, 5, 23, ASCI, 0, STRING$(30, "X"), "Direcci¢:"
+INITCAMP 2, 6, 23, ASCI, 0, STRING$(20, "X"), "Poblaci¢:"
+INITCAMP 3, 7, 23, ASCI, 0, STRING$(18, "X"), "TelŠfon:"
+INITCAMP 4, 8, 23, NUM, 0, "999", "N§ lins. llistats:"
+INITCAMP 5, 9, 23, ASCI, 0, STRING$(17, "X"), "Dir. programa:"
+INITCAMP 6, 10, 23, ASCI, 0, "XXXXXXX", "Tipus de pantalla:"
+INITCAMP 7, 11, 23, ASCI, 0, STRING$(29, "X"), "Copyright:"
+INITCAMP 8, 12, 23, ASCI, 0, STRING$(10, "X"), "Estat programa:"
+INITCAMP 9, 13, 23, ENCRIP, 15, STRING$(10, "X"), "Clau:"
+INITCAMP 10, 14, 23, ASCI, 0, STRING$(12, "X"), "Port de l'impresora:"
+INITCAMP 11, 15, 23, NUM, 0, "999", "N§ d'impresora:"
+INITCAMP 12, 16, 23, NUM, 0, "999", "N§ de linies (FRA):"
+INITCAMP 13, 17, 23, NUM, 0, "999", "DTO% documents:"
+INITCAMP 14, 18, 23, NUM, 0, "999", "IVA% documents:"
+
+   GET 1, 1, CFG: GET 2, 1, EMPR
+
+   INSERTCAMP 0, CFG.NOM
+   INSERTCAMP 1, CFG.DIREC
+   INSERTCAMP 2, CFG.POBLA
+   INSERTCAMP 3, CFG.TELF
+   INSERTCAMP 4, STR$(CFG.MAXLINS)
+   INSERTCAMP 5, CFG.DRIVE
+   INSERTCAMP 6, "&H" + HEX$(CFG.VAR)
+   INSERTCAMP 7, ENCRIPT$(CFG.INST, 45)
+   INSERTCAMP 8, CFG.INSTALAT
+   INSERTCAMP 9, EMPR.PASSWORD
+   INSERTCAMP 10, EMPR.DEVICE
+   INSERTCAMP 11, STR$(EMPR.IMPRESORA)
+   INSERTCAMP 12, STR$(EMPR.LINFACT)
+   INSERTCAMP 13, STR$(EMPR.DTO)
+   INSERTCAMP 14, STR$(EMPR.IVA)
+
+COLOR 3, 0, 0
+FINESTRA 1, 1, 21, 79, 1, CAIXA1
+LOCATE , , 1, 15, 16
+LOCATE 2, 2: PRINT "Fitxer de configuraci¢: CONFIG.FAC                      "; : COLOR 14: PRINT "DRAC'96 (C)": COLOR 3
+LOCATE 3, 2: PRINT STRING$(77, "Ä")
+COLOR 2: LOCATE 20, 65: PRINT "<ESC> Sortir"
+DISPLAYALL
+SALE = 0
+DO UNTIL SALE = 23
+
+  FOR C = 0 TO 14
+      IF C = 7 THEN C = C + 1
+      IF LLEGIRCAMP(C) = SALIR THEN SYSTEM
+  NEXT
+
+  LOCATE 19, 11: PRINT "¨ Les Dades Son Correctes (S/N) ?"
+  DO
+   DO
+     T$ = INKEY$
+   LOOP UNTIL UCASE$(T$) = "S" OR UCASE$(T$) = "N"
+
+   IF UCASE$(T$) = "S" THEN SALE = 23: GOSUB GRABA
+   IF UCASE$(T$) = "N" THEN SALE = 0: EXIT DO
+  LOOP
+LOOP
+
+GRABA:
+      PLAY "L20GBGBG"
+
+      CFG.COPY = "Configuraci¢ Facturaci¢ 2.0" + CHR$(26)
+      CFG.NOM = SHOWFIELD$(0)
+      CFG.DIREC = SHOWFIELD$(1)
+      CFG.POBLA = SHOWFIELD$(2)
+      CFG.TELF = SHOWFIELD$(3)
+
+      CFG.MAXLINS = VAL(SHOWFIELD$(4))
+      CFG.DRIVE = SHOWFIELD$(5)
+      CFG.VAR = VAL(SHOWFIELD$(6))
+
+      CADENC$ = ENCRIPT$(MID$(VERSVGA$, 1, 29), 45)    ' ENCRIPTAR-LO
+      CFG.INST = CADENC$
+      CFG.INSTALAT = SHOWFIELD$(8)
+      PUT 1, 1, CFG
+
+      D$ = SHOWFIELD$(9)
+
+      FOR L = 1 TO LEN(D$)
+          IF MID$(D$, L, 1) = "/" THEN MID$(D$, L, 1) = CHR$(32)
+      NEXT
+
+      C$ = LTRIM$(D$)
+      EMPR.PASSWORD = ENCRIPT$(C$, 15)
+
+      EMPR.DEVICE = SHOWFIELD$(10)
+      EMPR.IMPRESORA = VAL(SHOWFIELD$(11))
+      EMPR.LINFACT = VAL(SHOWFIELD$(12))
+      EMPR.DTO = VAL(SHOWFIELD$(13))
+      EMPR.IVA = VAL(SHOWFIELD$(14))
+      PUT 2, 1, EMPR
+      CLOSE 1, 2
+      SYSTEM
+

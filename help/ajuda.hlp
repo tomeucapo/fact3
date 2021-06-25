@@ -1,0 +1,165 @@
+&IF
+&WELCOME
+
+  Benvingut a GestPRO 3.3.1
+  -------------------------
+
+  Programa de gesti¢ integral. En el qual s'inclou una gesti¢ de factures,
+  albarans, stock, clients, proveidors, etc... Inclou tamb‚ un modul per
+  a gestionar un taller de reparacions.
+
+  Aquesta versi¢, ha estada actualitzada. Soportant l'efŠcte 2000 i l'euro.
+
+            Programa desenvolupat per Smart Software 1993/99 (C)
+
+           Llibreries actualitzades per l'equip de Smart Software:
+
+            Joan Miquel Payeras i Cresp¡      - jmpc@iris1.uib.es
+            Tomeu Cap¢ i Cap¢                 - tomeu@iris1.uib.es
+            Francisco Xavier Jaume S nchez    - xiscox@arrakis.es
+  
+  ------------------------------------------------------------------------
+  Smart Software 1993/99 (C)
+  C/ Varet N§ 15 - 1. Telf. (971) 54 07 78
+  Sa Pobla     C.P. 07420
+  Balears (ESPANYA)
+  e-mail: smart@ctv.es
+  URL: http://web.screenart.es/tomeu/
+  ------------------------------------------------------------------------
+&FT
+&ENTRADA
+
+  Entrada del programa
+  --------------------
+
+      En aquest cuadre es possa el n£mero de l'empresa a treballar
+  i la clau corresponent, tamb‚, per suposat el nom de l'usuari i
+  la seva clau.
+
+      Si no existeix tal empresa el programa no s'executar… i si
+  no possa la clau corresponent tamb‚ sortir….
+
+&FT
+
+&ALB_CAPSALERA
+
+  Cap‡alera dels albarans
+  -----------------------
+      
+      Aqui es possan les dades de l'albar… o factura, per exemple la 
+  referŠncia que ja es posa autom…ticament "AAXXXXXX-A" (les X ‚s el 
+  nombre d'albar… a fer). Despr‚s es posa el codi de client per especificar
+  a quin client va dirigit l'albar…, i la data que tamb‚ va autom…tica.
+
+      Si desitja treure el llistat dels clients per seleccionar-ne un
+  pitji damunt el camp del codi del client, la tecla <F2>.
+
+&FT
+
+&ALB_LINIES
+
+  Linies dels albarans
+  --------------------
+      
+      Si desitja treure el llistat dels articles per seleccionar-ne un
+  pitji damunt el camp del codi de l'article, la tecla <F2>.
+
+&FT
+
+&FITXERS
+
+  COMPOSICI¢ DELS FITXERS D'UNA EMPRESA
+  -------------------------------------
+
+      La base de dades de gestio de l'empresa esta formada per una sŠrie
+  de fitxers:
+              (XXX) -> Nombre de la empresa
+              (AAAA) -> Any actual de la facturaci¢
+
+  Direcctori: C:\FACT3\FACTUXXX\
+
+             COLORS.CFG     -> Fitxer que cont‚ la configuraci¢ dels
+                               colors
+
+               ANYS.DAT     -> Controla els anys del inici fins l'actual
+                               de la facturaci¢. (Cont‚ totals i mitjes)
+                              
+  Direcctori: C:\FACT3\FACTUXXX\AAAA\
+
+           DOCUMENT.NUM     -> Configuraci¢ dels tipus de documents
+                               (Factures, resguards, clients, etc...)
+           ALBARANS.CAB     -> Cap‡aleres dels albarans
+           FACTURES.CAB     ->    "       de les factures
+            COM_CLI.CAB     ->    "       de les comandes de clients
+            COM_PRO.CAB     ->    "       de les comandes a proveidors
+           PRESUPOS.CAB     ->    "       dels presuposts
+              STOCK.DAT     -> Control de l'stock (MAGATZEM)
+           ENTRADES.DAT     -> Control d'entrades a l'stock
+            CLIENTS.DAT     -> Control del clients
+           PROVEIDO.DAT     -> Control dels prove‹dors
+            CPOSTAL.DAT     -> Control dels codis postals
+           RESGUARD.DAT     -> Control de les fitxes del taller (I/O)
+            RES_FAC.DAT     -> Linies de les factures dels resguards
+           ALBARANS.LIN     -> Linies dels albarans
+           FACTURES.LIN     -> Linies de les factures
+            COM_CLI.LIN     -> Linies de les comandes de clients
+            COM_PRO.LIN     -> Linies de les comandes a proveidors
+           PRESUPOS.LIN     -> Linies dels presuposts
+           
+                  *.NDX     -> Fitxers de tipus index
+                  *.CRB     -> Fitxers de tipus index per registres borrats
+
+  Direcctori: C:\FACT2\FACTUXXX\PLANTILL\
+  
+        CAP€ALER.DAT        -> Cap‡alera de tots els documents
+                               aquesta nomes es pot modificar
+                               des del programa.
+
+           STOCK.MSK        -> Cap‡alera del llistat del stock
+                               tipus texte totalment modificable
+                               pel usuari extŠrn.
+
+            FACT.MSK        -> Cap‡alera del llistat de les factures
+                               tipus texte totalment modificable
+                               pel usuari extŠrn.
+
+  Direcctori: C:\FACT2\FACTUXXX\TEXTOS\
+      
+      Aquest direcctori nom‚s contŠ els fitxers que es generen quant
+  es f… una impresi• de qualque document.
+
+  Direcctori: C:\FACT2\FACTUXXX\HISTORIC\
+
+           H_STOCK.DAT      -> Control de l'historic dels articles
+                               (moviments, entrades i sortides).
+
+&FT
+
+&CONTROL_MINIMS
+
+
+&FT
+
+&MAN_COBR_01
+
+    Manteniment de cobros
+    ---------------------
+
+        Aquest modul permet al usuari controlar i mantenir el cobros
+    de les factures que s'afectuin.
+
+        En aquesta finestra s'introdueix el codi del client per que
+    ell cerqui les factures que queden pendents de cobrar. Si no se
+    sap el codi el pot pitjar <F2> i surtir… la llista de clients,
+    tamb‚ pot filtrar-los.
+
+&FT
+
+&MAN_COBR_02
+
+    Efectuar un cobro
+    -----------------
+
+&FT
+
+&FF

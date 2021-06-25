@@ -1,0 +1,119 @@
+DOCUMENT:Q27287  12-JAN-1995  [otherbasics]
+TITLE   :How to Assign High & Low Registers for CALL INTERRUPT, INT86
+PRODUCT :Microsoft Basic
+PROD/VER:1.00
+OPER/SYS:MS-DOS
+KEYWORDS:kbprg B_QuickBas B_BasicCom
+
+---------------------------------------------------------------------
+The information in this article applies to:
+
+ - The Standard and Professional Editions of Microsoft Visual Basic
+   for MS-DOS, version 1.0
+ - Microsoft QuickBasic for MS-DOS, versions 2.0, 2.01, 3.0, 4.0,
+   4.0b, and 4.5
+ - Microsoft Basic Compiler for MS-DOS, versions 6.0 and 6.0b
+ - Microsoft Basic Professional Development System (PDS) for MS-DOS,
+   versions 7.0 and 7.1
+----------------------------------------------------------------------
+
+SUMMARY
+=======
+
+When you invoke MS-DOS and BIOS interrupts from Visual Basic for
+MS-DOS, you pass full-word (two-byte) register variables such as AX,
+instead of the half registers AH (high byte of AX) and AL (low byte
+of AX). This article describes how to assign or read half registers
+before or after calling the interrupt routines.
+
+This information applies to CALL INT86OLD and CALL INTERRUPT in
+the Standard and Professional Editions of Microsoft Visual Basic for
+MS-DOS version 1.0; to Microsoft QuickBasic for MS-DOS versions 4.0,
+4.0b, and 4.5; to Microsoft Basic Compiler for MS-DOS versions 6.0
+and 6.0b; and to Microsoft Basic Professional Development System (PDS)
+for MS-DOS versions 7.0 and 7.1. This information also applies to
+CALL INT86 and CALL PTR86 in Microsoft QuickBasic for MS-DOS versions
+2.0, 2.01, and 3.0.
+
+This information is also included with the Help file provided with
+the Standard and Professional Editions of Microsoft Visual Basic
+for MS-DOS, version 1.0.
+
+MORE INFORMATION
+================
+
+You can use any of the following methods to assign values to high and
+low half-registers and load them into the full-word (two-byte)
+registers:
+
+1. The simplest method is to combine the hexadecimal values of the
+   high and low registers into one hexadecimal constant:
+
+   AX = &H0941             ' Where AH=&H09, AL=&H41
+   BX = &H0002             ' Where BH=&H00, BL=&H02
+   CX = &H07D0             ' Where CH=&H07, CL=&HD0
+
+2. The following is a more flexible method, letting you assign
+   variables to the high and low registers with a formula:
+
+   AX%, BX%, CX%, or DX% = (high% * 256) + low%
+
+   In this case, "high%" and "low%" contain the decimal values that
+   you want to assign to the high and low half-registers (where high%
+   can be a value from 0 to 127). For example:
+
+   high% = 9                   ' 9 = &H09
+   low% = 65                   ' 65 = &H41
+   AX% = (high% * 256) + low%    ' AX = 2369 = &H0941
+
+   You will get an integer "Overflow" error if high% is 128 or larger.
+   Use method 3 below if you need high% between 128 and 255.
+
+3. If you need the high byte (AH, BH, CH, or DH) to be a value from
+   1 to 255, then you can POKE the value as follows:
+
+   high% = 255
+   low% = 65
+   AX% = low%            ' Assigns low byte into AX%
+   POKE VARPTR(AX%)+1,high%   ' Pokes the high byte into AX%
+
+Note that the following is a quick way to convert a decimal number to
+hexadecimal using the Immediate window in the QB.EXE, QBX.EXE or
+VBDOS.EXE environment:
+
+PRINT HEX$(number)
+
+(To open the Immediate window select Immediate from the Window menu.
+Pressing F6 in the VBDOS.EXE environment lets you switch between
+windows. Pressing F4 toggles between viewing the editor and viewing
+the output screen.)
+
+The following formulas return the contents of the half registers,
+which are stored in the two bytes of a full register, such as AX,
+returned from an interrupt routine:
+
+AL% = AX% MOD 256 ' MOD operator returns integer remainder of division
+PRINT "The AL register contains &H"; HEX$(AL%)
+
+AH% = AX% \ 256  ' Integer division by 256 removes the lower byte.
+PRINT "The AH register contains &H"; HEX$(AH%)
+
+Additional reference words: VBmsdos QuickBas BasicCom
+KBCategory: kbprg
+KBSubcategory:
+
+=============================================================================
+
+THE INFORMATION PROVIDED IN THE MICROSOFT KNOWLEDGE BASE IS
+PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.  MICROSOFT DISCLAIMS
+ALL WARRANTIES, EITHER EXPRESS OR IMPLIED, INCLUDING THE WARRANTIES
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  IN NO
+EVENT SHALL MICROSOFT CORPORATION OR ITS SUPPLIERS BE LIABLE FOR
+ANY DAMAGES WHATSOEVER INCLUDING DIRECT, INDIRECT, INCIDENTAL,
+CONSEQUENTIAL, LOSS OF BUSINESS PROFITS OR SPECIAL DAMAGES, EVEN IF
+MICROSOFT CORPORATION OR ITS SUPPLIERS HAVE BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.  SOME STATES DO NOT ALLOW THE EXCLUSION
+OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES
+SO THE FOREGOING LIMITATION MAY NOT APPLY.
+
+Copyright Microsoft Corporation 1995.

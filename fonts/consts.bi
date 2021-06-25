@@ -1,0 +1,10 @@
+CONST versio = "3.3.1"
+CONST COPYRIGHT = "Smart Software 1993/99 (C)"
+CONST PROGRAMA = "GestPRO"
+CONST AUTOR = "Tomeu Cap¢ i Cap¢ 1999 (C)"
+CONST FALSE = 0, TRUE = NOT FALSE
+CONST ESCAPE = 27, RETORNO = 13, ABAJO = 80, ARRIBA = 72
+CONST CF = 15
+CONST CT = 9
+CONST CAIXA1 = "…Õª∫»Õº", CAIXA2 = "⁄ƒø≥¿ƒŸ", CAIXA3 = "€€€€€€€"
+
